@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#fff1f1f1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/ad_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/ad_layout">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center|right" android:orientation="horizontal" android:id="@id/tip1" android:paddingLeft="8.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/setting_notifacation_devide_line_margin">
+                    <TextView android:textSize="18.0sp" android:textColor="#ff4d4d4d" android:gravity="right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cycle_length" />
+                </LinearLayout>
+                <RelativeLayout android:id="@id/data_layout" android:layout_below="@id/tip1" style="@style/data_input_layout">
+                    <EditText android:id="@id/data" android:numeric="integer" android:inputType="number" android:textCursorDrawable="@null" style="@style/ldrtl_data_value" />
+                    <TextView android:id="@id/data_unit" android:layout_toLeftOf="@id/data" style="@style/ldrtl_data_unit" />
+                    <LinearLayout style="@style/ldrtl_button_plus_minus_layout">
+                        <Button android:id="@id/data_down" style="@style/ldrtl_button_minus" />
+                        <Button android:id="@id/data_up" style="@style/ldrtl_button_plus" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <TextView android:textSize="16.0sp" android:textColor="#ff4d4d4d" android:gravity="right" android:paddingLeft="8.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/setting_notifacation_devide_line_margin" android:text="@string/set_use_cycle_length" android:layout_below="@id/data_layout" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/cycle_layout" android:background="@drawable/setting_selector" android:paddingLeft="8.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/setting_notifacation_devide_line_margin" android:minHeight="@dimen/setting_item_height">
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                    <CheckBox android:id="@id/checkbox_cycle" android:focusable="false" android:clickable="false" android:layout_width="44.0dip" android:layout_height="44.0dip" android:layout_marginLeft="6.0dip" android:layout_marginRight="16.0dip" android:button="@drawable/button_switch" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/average_info_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/checkbox_cycle" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <TextView android:textSize="18.0sp" android:textColor="#ff4d4d4d" android:gravity="right" android:id="@id/text_cycle" android:paddingLeft="30.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:text="@string/use_average" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                            <ImageView android:id="@id/cycle_tip" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/icon_info" android:scaleType="centerInside" android:layout_alignLeft="@id/text_cycle" android:layout_centerVertical="true" />
+                        </RelativeLayout>
+                        <TextView android:textSize="14.0sp" android:textColor="#ff999999" android:gravity="right" android:layout_gravity="right" android:id="@id/average_type" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <ImageView android:background="#ffe6e6e6" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentTop="true" />
+                <ImageView android:background="#ffe6e6e6" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/period_layout" android:background="@drawable/setting_selector" android:paddingLeft="8.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/setting_item_height">
+                <RelativeLayout android:id="@id/title_layout_cycle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                    <CheckBox android:id="@id/checkbox_period" android:focusable="false" android:clickable="false" android:layout_width="44.0dip" android:layout_height="44.0dip" android:layout_marginLeft="6.0dip" android:button="@drawable/button_switch" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/checkbox_period" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                        <TextView android:textSize="18.0sp" android:textColor="#ff4d4d4d" android:gravity="right" android:id="@id/text_period" android:paddingLeft="30.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:text="@string/ignore_irregular_cycle" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                        <ImageView android:id="@id/period_tip" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/icon_info" android:scaleType="centerInside" android:layout_alignLeft="@id/text_period" android:layout_centerVertical="true" />
+                    </RelativeLayout>
+                </RelativeLayout>
+                <ImageView android:background="#ffe6e6e6" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

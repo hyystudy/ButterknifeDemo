@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:id="@id/model_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_centerHorizontal="true">
+            <Button android:textSize="@dimen/log_list_title_text" android:textColor="@color/chart_bar_text" android:id="@id/bt_month_model" android:background="@drawable/btn_chart_left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/month" android:layout_weight="1.0" />
+            <Button android:textSize="@dimen/log_list_title_text" android:textColor="@color/chart_bar_text_on" android:id="@id/bt_week_model" android:background="@drawable/btn_chart_right_on" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/week" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/bottom_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <RelativeLayout android:background="@color/text_color_red" android:layout_width="fill_parent" android:layout_height="@dimen/log_height_1">
+                <ImageButton android:id="@id/bt_date_pre" android:background="@drawable/button_pre_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                <ImageButton android:id="@id/bt_date_next" android:background="@drawable/button_next_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                <TextView android:textSize="@dimen/log_list_title_text" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/bottom_date" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_toLeftOf="@id/bt_date_next" android:layout_toRightOf="@id/bt_date_pre" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <ImageView android:background="@drawable/bg_chart_baseline" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:id="@id/chart_x_layout" android:background="@color/chart_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:minHeight="30.0dip" android:layout_above="@id/bottom_bar" android:layout_centerVertical="true">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginLeft="30.0dip" android:src="@color/chart_fertile" />
+            <TextView android:textSize="@dimen/timeline_value" android:textColor="@color/chart_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/legend_fertile" />
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="@drawable/icon_ovulation" />
+            <TextView android:textSize="@dimen/timeline_value" android:textColor="@color/chart_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:text="@string/legend_ovulation" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/chart_layout" android:background="@color/chart_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_above="@id/chart_x_layout" android:layout_below="@id/model_layout" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/chart_text" android:id="@id/chart_y_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_alignLeft="@id/chart_layout" android:layout_alignTop="@id/chart_layout" />
+    </RelativeLayout>
+</RelativeLayout>

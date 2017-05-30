@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cycle_dialog_values">
+        <item>Podaci zadnjeg mjeseca</item>
+        <item>Podaci zadnja 3 mjeseca</item>
+        <item>Podaci zadnjih 6 mjeseci</item>
+        <item>Pametni izračun</item>
+    </string-array>
+    <string-array name="first_day_of_week_array">
+        <item>Nedjelja</item>
+        <item>Ponedjeljak</item>
+        <item>Subota</item>
+    </string-array>
+    <string-array name="local_restore_ways">
+        <item>Automatski povrat</item>
+        <item>Ručni povrat</item>
+    </string-array>
+    <string-array name="questions">
+        <item>Vaše sigurnosno pitanje</item>
+        <item>Vaš prvi telefonski broj?</item>
+        <item>Vaša omiljena boja?</item>
+        <item>Ime Vašeg šefa?</item>
+        <item>Postavi moje pitanje</item>
+    </string-array>
+</resources>

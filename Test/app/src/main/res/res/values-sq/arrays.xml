@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cycle_dialog_values">
+        <item>Muaji i fundit</item>
+        <item>3 muajt e fundit</item>
+        <item>6 muajt e fundit</item>
+        <item>Llogaritja zgjuar</item>
+    </string-array>
+    <string-array name="first_day_of_week_array">
+        <item>e Dielë</item>
+        <item>e Hënë</item>
+        <item>e Shtunë</item>
+    </string-array>
+    <string-array name="local_restore_ways">
+        <item>Rimmarrje automatike</item>
+        <item>Ruajte manuale</item>
+    </string-array>
+    <string-array name="questions">
+        <item>Zgjidh pyetjen e sigurisë</item>
+        <item>Numri i parë i telefonit?</item>
+        <item>Ngjyra e preferuar?</item>
+        <item>Emri i shefit?</item>
+        <item>E vendos vetë pyetjen</item>
+    </string-array>
+</resources>

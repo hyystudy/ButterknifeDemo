@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cycle_dialog_values">
+        <item>Último dado 1 mês</item>
+        <item>Últimos dados 3 meses</item>
+        <item>Últimos dados 6 meses</item>
+        <item>Calculadora inteligente</item>
+    </string-array>
+    <string-array name="first_day_of_week_array">
+        <item>Domingo</item>
+        <item>Segunda-feira</item>
+        <item>Sábado</item>
+    </string-array>
+    <string-array name="local_restore_ways">
+        <item>Auto restauração</item>
+        <item>Manual de Restauração</item>
+    </string-array>
+    <string-array name="questions">
+        <item>Escolher questão de segurança</item>
+        <item>O primeiro número de telefone?</item>
+        <item>Sua cor favorita?</item>
+        <item>O nome do seu amor?</item>
+        <item>Definir minha própria questão</item>
+    </string-array>
+</resources>

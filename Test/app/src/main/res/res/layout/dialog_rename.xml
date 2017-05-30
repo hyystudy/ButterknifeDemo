@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="24.0dip" android:paddingBottom="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textColor="@color/md_text_black" android:gravity="left" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/category" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/md_text_gray" android:gravity="center|left" android:id="@id/category" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/rename" android:drawableRight="@drawable/icon_calendar_arrow" />
+    <ImageView android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="8.0dip" android:src="#ffc8c8c8" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/md_text_black" android:gravity="left" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/rename" />
+    <EditText android:textSize="16.0sp" android:textColor="@color/md_text_gray" android:gravity="left" android:id="@id/name" android:background="@null" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="12341235" android:textCursorDrawable="@null" />
+    <ImageView android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="8.0dip" android:src="#ffc8c8c8" />
+</LinearLayout>

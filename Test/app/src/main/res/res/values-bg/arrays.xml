@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cycle_dialog_values">
+        <item>Данни от последният 1 месец</item>
+        <item>Данни от последните 3 месеца</item>
+        <item>Данни от последните 6 месеца</item>
+        <item>Прецизно изчисление</item>
+    </string-array>
+    <string-array name="first_day_of_week_array">
+        <item>Неделя</item>
+        <item>Понеделник</item>
+        <item>събота</item>
+    </string-array>
+    <string-array name="local_restore_ways">
+        <item>автоматично възстановяване</item>
+        <item>Наръчник за възстановяване на</item>
+    </string-array>
+    <string-array name="questions">
+        <item>Изберете таен въпрос</item>
+        <item>Първият Ви телефонен номер?</item>
+        <item>Вашият любим цвят?</item>
+        <item>Името на Вашият шеф?</item>
+        <item>Избор на мой въпрос</item>
+    </string-array>
+</resources>

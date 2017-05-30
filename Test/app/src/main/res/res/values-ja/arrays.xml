@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cycle_dialog_values">
+        <item>過去1ヶ月のデータ</item>
+        <item>過去3ヶ月のデータ</item>
+        <item>過去6ヶ月のデータ</item>
+        <item>スマート計算</item>
+    </string-array>
+    <string-array name="first_day_of_week_array">
+        <item>日曜日</item>
+        <item>月曜日</item>
+        <item>土曜日</item>
+    </string-array>
+    <string-array name="local_restore_ways">
+        <item>自動復元</item>
+        <item>手動復元</item>
+    </string-array>
+    <string-array name="questions">
+        <item>秘密の質問を選択</item>
+        <item>初めての電話番号は？</item>
+        <item>一番好きな色は？</item>
+        <item>上司の名前は？</item>
+        <item>独自の質問を設定</item>
+    </string-array>
+</resources>

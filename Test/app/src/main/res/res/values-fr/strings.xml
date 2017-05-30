@@ -1,0 +1,990 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">"Revenir à l'accueil"</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Revenir en haut de la page</string>
+    <string name="abc_action_menu_overflow_description">"Plus d'options"</string>
+    <string name="abc_action_mode_done">OK</string>
+    <string name="abc_activity_chooser_view_see_all">Tout afficher</string>
+    <string name="abc_activitychooserview_choose_application">Sélectionner une application</string>
+    <string name="abc_capital_off">DÉSACTIVÉ</string>
+    <string name="abc_capital_on">ACTIVÉ</string>
+    <string name="abc_search_hint">Rechercher…</string>
+    <string name="abc_searchview_description_clear">Effacer la requête</string>
+    <string name="abc_searchview_description_query">Requête de recherche</string>
+    <string name="abc_searchview_description_search">Rechercher</string>
+    <string name="abc_searchview_description_submit">Envoyer la requête</string>
+    <string name="abc_searchview_description_voice">Recherche vocale</string>
+    <string name="abc_shareactionprovider_share_with">Partager avec</string>
+    <string name="abc_shareactionprovider_share_with_application">Partager avec %s</string>
+    <string name="abc_toolbar_collapse_description">Réduire</string>
+    <string name="common_google_play_services_enable_button">Activer</string>
+    <string name="common_google_play_services_enable_text">"%1$s ne fonctionnera pas tant que vous n'aurez pas activé les services Google Play."</string>
+    <string name="common_google_play_services_enable_title">Activer les services Google Play</string>
+    <string name="common_google_play_services_install_button">Installer les services Google Play</string>
+    <string name="common_google_play_services_install_text_phone">%1$s ne fonctionnera pas sans les services Google Play, qui ne sont pas installés sur votre téléphone.</string>
+    <string name="common_google_play_services_install_text_tablet">%1$s ne fonctionnera pas sans les services Google Play, qui ne sont pas installés sur votre tablette.</string>
+    <string name="common_google_play_services_install_title">Installer les services Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Erreur liée aux services Google Play</string>
+    <string name="common_google_play_services_unknown_issue">"L'application %1$s rencontre des problèmes avec les services Google Play. Si le problème persiste, veuillez contacter le développeur pour obtenir de l'aide."</string>
+    <string name="common_google_play_services_unsupported_text">"%1$s dépend des services Google Play, qui ne sont pas compatibles avec votre appareil. Veuillez contacter le fabricant pour obtenir de l'aide."</string>
+    <string name="common_google_play_services_unsupported_title">Services Google Play</string>
+    <string name="common_google_play_services_update_button">Mettre à jour</string>
+    <string name="common_google_play_services_update_text">"%1$s ne fonctionnera pas tant que vous n'aurez pas mis à jour les services Google Play."</string>
+    <string name="common_google_play_services_update_title">Mettre à jour les services Google Play</string>
+    <string name="common_google_play_services_updating_text">%1$s ne fonctionnera pas sans les services Google Play, qui sont en cours de mise à jour.</string>
+    <string name="common_google_play_services_updating_title">Mise à jour des services Google Play</string>
+    <string name="common_google_play_services_wear_update_text">La nouvelle version des services Google Play est nécessaire. Elle sera bientôt installée automatiquement.</string>
+    <string name="common_open_on_phone">Ouvrir sur le téléphone</string>
+    <string name="common_signin_button_text">Se connecter</string>
+    <string name="common_signin_button_text_long">Se connecter avec Google</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
+    <string name="C">°C</string>
+    <string name="F">°F</string>
+    <string name="account">Compte</string>
+    <string name="account_tip">Touchez pour changer. Maintenez enfoncé pour modifier ou supprimer</string>
+    <string name="active">Rappels actifs</string>
+    <string name="add">Ajouter</string>
+    <string name="add_account_name_tip">Veuillez saisir votre nom</string>
+    <string name="add_account_tip">Ajouter un nouveau compte</string>
+    <string name="add_mood_title">Ajouter humeur</string>
+    <string name="add_more">Ajouter plus</string>
+    <string name="add_note">Ajouter Note</string>
+    <string name="add_note_title">Ajouter Note</string>
+    <string name="add_password_fail">Échec de la création du mot de passe !</string>
+    <string name="add_password_success">Mot de passe créé !</string>
+    <string name="add_period">Ajouter des règles</string>
+    <string name="add_pill_dialog_title">Ajouter le nom de la pilule</string>
+    <string name="add_pill_title">Ajouter médicament</string>
+    <string name="add_pin_fail">Échec de la création du le code PIN !</string>
+    <string name="add_pin_success">Le code PIN créé !</string>
+    <string name="add_symptom_title">Ajouter Symptôme</string>
+    <string name="advanced_setting_tip">Ceci est un rappel répété pour vous faire penser à prendre votre pilule.</string>
+    <string name="after_x_days">(après %s jours)</string>
+    <string name="age_appropriate_ads">"Publicités adaptées à l'âge"</string>
+    <string name="ahead_dialog_tip">"Ce n'est pas pour tout de suite, inutile de saisir se presser."</string>
+    <string name="alarm_setting">"Réglage de l'alarme"</string>
+    <string name="alert">Rappel</string>
+    <string name="all_data">Toutes les données</string>
+    <string name="also_alert_me_when_i_take_palcebo_pills">Me rappeler également de prendre la pilule placebo</string>
+    <string name="answer_hint">Réponse</string>
+    <string name="answer_null">Veuillez saisir votre réponse</string>
+    <string name="answer_wrong">La réponse est erronée !</string>
+    <string name="app_name">Mon Calendrier</string>
+    <string name="apply">Appliquer</string>
+    <string name="apply_patch">Appliquer le patch</string>
+    <string name="apply_patch_time">Prochain patch :</string>
+    <string name="auth_failed_tip">"Échec de l'autorisation en raison de problèmes réseau. Veuillez vérifier le réseau et réessayer."</string>
+    <string name="auth_success_tip">"Succès de l'autorisation"</string>
+    <string name="auto_restore_tip">Vous avez utilisé %s auparavant. Voulez-vous restaurer vos données maintenant ?</string>
+    <string name="average">Moyenne</string>
+    <string name="average_cycle">Cycle temps moyen</string>
+    <string name="average_cycle_length">%s, durée moyenne du cycle</string>
+    <string name="average_period_length">%s, durée moyenne de la règles</string>
+    <string name="average_value">Valeur moyenne</string>
+    <string name="backup">Sauvegarder</string>
+    <string name="backup_dropbox_failed">Échec de la sauvegarde sur Dropbox</string>
+    <string name="backup_dropbox_success">Sauvegarde sur Dropbox terminée</string>
+    <string name="backup_failed_read_only">"Nous ne pouvons pas enregistrer les données sur la carte SD en raison de la limitation des services de Google. 
+
+Nous allons enregistrer vos données dans la mémoire mobile."</string>
+    <string name="backup_gmail_tip">"Vous avez sauvegarder vos données le %s.
+
+Veuillez vérifier que vous avez reçu l'e-mail de sauvegarde avec sa pièce jointe (fichier en extension .pc) et conservez-le.
+
+Vous pouvez télécharger la pièce jointe depuis l'application Gmail sur votre mobile portable. La restauration sera automatique."</string>
+    <string name="backup_gmail_title">Sauvegarde du Calendrier des règles</string>
+    <string name="backup_google_drive_success">Sauvegarde terminée</string>
+    <string name="backup_monthly">Sauvegarder les données tous les mois</string>
+    <string name="backup_monthly_tip">"Vous n'avez pas sauvegarder vos données ce mois-ci. Sauvegarder maintenant ?"</string>
+    <string name="backup_password_tip">"Le mot de passe du Calendrier des règles est : %s 
+Si vous oubliez votre mot de passe, vous pouvez le chercher dans votre Gmail ou répondre à la question de sécurité pour le réinitialiser."</string>
+    <string name="backup_password_title">Mémo pour le mot de passe du calendrier des règles</string>
+    <string name="backup_reminder">Rappel de sauvegarde</string>
+    <string name="backup_time">Heure de sauvegarde</string>
+    <string name="backup_to">Sauvegarder sur</string>
+    <string name="backup_to_cloud">Sauvergarder les données sur le cloud</string>
+    <string name="backup_to_dropbox">Sauvegarder les données sur Dropbox …</string>
+    <string name="backup_to_gmail">Sauvegarder les données sur Gmail …</string>
+    <string name="backup_to_google_drive">Sauvegarder les données sur un compte Google…</string>
+    <string name="backup_to_sdcard">Sauvegarder les données sur une carte SD …</string>
+    <string name="backup_type_tip">Veuillez sélectionner vos préférences de sauvegarde</string>
+    <string name="backup_weekly">Sauvegarder les données toutes les semaines</string>
+    <string name="backup_weekly_tip">"Vous n'avez pas sauvegarder vos données cette semaine. Sauvegarder maintenant ?"</string>
+    <string name="bleed_day_tip">"La durée de vos saignements règles est de %s, ce qui est plus long que votre cycle. 
+
+Veuillez vérifier ces informations."</string>
+    <string name="bleeding_days">Jours de saignement</string>
+    <string name="bmi">IMC</string>
+    <string name="bmi_error_tip">"Vous avez saisi une taille de %1$s. Veuillez la vérifier. Nous avons %2$s options d'unité."</string>
+    <string name="bmi_healthy_weight">Poids normal</string>
+    <string name="bmi_moderately_obese">Obésité modérée</string>
+    <string name="bmi_overweight">Surpoids</string>
+    <string name="bmi_severely_obese">Obésité grave</string>
+    <string name="bmi_severely_underweight">Insuffisance pondérale grave</string>
+    <string name="bmi_underweight">Insuffisance pondérale</string>
+    <string name="bmi_unit">IMC(kg/m²)</string>
+    <string name="bmi_very_severely_obese">Obésité très grave</string>
+    <string name="bmi_very_severely_underweight">Insuffisance pondérale très grave</string>
+    <string name="break_days_tip">Jours de pause</string>
+    <string name="break_pill_tip">Jours de pause ou placebo</string>
+    <string name="bug_dialog_content">"Veuillez nous envoyer le journal d'événements, merci !"</string>
+    <string name="bug_dialog_title">Rapport de bug et feedback</string>
+    <string name="by_mistake">Activer par erreur</string>
+    <string name="calendar_delete_title">Choisissez ce que vous souhaitez supprimer :</string>
+    <string name="calendar_note">Notes</string>
+    <string name="cancel">Annuler</string>
+    <string name="cannt_restore_tip">"Veuillez mettre à jour votre Calendrier des règles sur Google Play. 
+
+Cette ancienne version ne peut pas restaurer vos données."</string>
+    <string name="category">Catégorie</string>
+    <string name="change">Modifier</string>
+    <string name="change_length">Changer la longueur du cycle</string>
+    <string name="change_the_date">Changer la date</string>
+    <string name="change_to">Passer à %s</string>
+    <string name="char_temp">Température corporelle</string>
+    <string name="chart_temp_title">Température</string>
+    <string name="chart_weight_title">Poids</string>
+    <string name="check_date">Veuillez vérifier la date de votre téléphone.</string>
+    <string name="check_more_information">"Plus d'informations"</string>
+    <string name="choose_pet">Choisissez votre animal</string>
+    <string name="choose_pregnancy_tip">"Afficher sur la page d'accueil"</string>
+    <string name="choose_pregnancy_title">"Veuillez choisir une option à montrer sur la page d'accueil"</string>
+    <string name="clear_password">Effacer le mot de passe</string>
+    <string name="clear_password_fail">"L'effacement du mot de passe a échoué, veuillez réessayer !"</string>
+    <string name="clear_password_success">Le mot de passe a été effacé !</string>
+    <string name="cloud_storage">Stockage dans le cloud</string>
+    <string name="cm">cm</string>
+    <string name="comsume_pill_days_tip">Jours de prise de pilule</string>
+    <string name="contact_support">"Contacter l'assistance"</string>
+    <string name="contact_us">Nous contacter</string>
+    <string name="contact_us_tip">"Si vous n'arrivez pas à trouver votre mot de passe par d'autres moyens, contactez-nous.
+Nous recevons des centaines d'e-mails de récupération de mot de passe tous les jours. Nous mettrons de 3 à 5 jours à vous répondre.
+Vous pouvez également récupérer votre mot de passe en ligne ou cherchez dans vos e-mails pour retrouver l'e-mail de sauvegarde du mot de passe."</string>
+    <string name="continue_backup">Continuer la sauvegarde</string>
+    <string name="continue_text">Continuer</string>
+    <string name="continue_with_set_days">Continuer avec %s jours</string>
+    <string name="contraceptive_injection_default_notificaiton_text">Pensez à %s !</string>
+    <string name="contraceptive_injection_next_time">Prochaine injection :</string>
+    <string name="contraceptive_injection_tip_1">Ceci est un rappel répété pour que vous pensiez à votre injection.</string>
+    <string name="contraceptive_injection_tip_2">"Semaines d'efficacité pour chaque injection"</string>
+    <string name="contraceptive_injection_tip_3">Injection précédente</string>
+    <string name="contraceptive_injection_tip_4">"Semaines/mois d'efficacité pour chaque injection"</string>
+    <string name="contraceptive_injection_wiki">Le Dépo-Provera est un progestatif contraceptif utilisé par voie injectable administré le 5e jour des règles sur une période de 12 semaines (3 mois). (Wikipédia)</string>
+    <string name="contraceptive_medicine">Contraceptif</string>
+    <string name="contracptive_injection">"L'injection"</string>
+    <string name="contracptive_patch">Patch</string>
+    <string name="contracptive_pill">Pilule contraceptive</string>
+    <string name="contracptive_vring">Anneau vaginal</string>
+    <string name="cover_data_tip">Les données enregistrées sur votre compte Google sont plus récentes. Voulez-vous les récupérer maintenant ?</string>
+    <string name="current_password">Mot de passe actuel</string>
+    <string name="current_translation">La traduction incorrecte actuelle :</string>
+    <string name="cycle_average_value">Valeur moyenne du cycle</string>
+    <string name="cycle_chart_ovulation_day">"Jour d'ovulation"</string>
+    <string name="cycle_dialog_title">Utiliser la moyenne</string>
+    <string name="cycle_legth">Durée</string>
+    <string name="cycle_length">Durée du cycle</string>
+    <string name="cycle_length_wrong">"La durée des règles doit être inférieure à la longueur du cycle. 
+
+Veuillez vérifier si votre saisie de la longueur du cycle ou des règles est erronée."</string>
+    <string name="cycle_reminder_title">Règles et ovulation</string>
+    <string name="cycle_short_tip">"La durée du cycle saisie est de %s jours, cela ne correspond pas à une durée normale (&lt;u>23 à 35&lt;/u> jours).
+
+De nombreuses raisons peuvent entraîner des cycles irréguliers. 
+
+Pour plus d'informations, veuillez consulter votre médecin."</string>
+    <string name="cycle_too_long_tip">Votre cycle compte plus de 250 jours. Veuillez le vérifier.</string>
+    <string name="date_format">Format de date</string>
+    <string name="date_time_set">Définir</string>
+    <string name="day">Jour</string>
+    <string name="day_after">%1$s jour après la date de début prévue</string>
+    <string name="day_before">%s jours avant</string>
+    <string name="days">Jours</string>
+    <string name="days_after">%1$s jours après la date de début prévue</string>
+    <string name="days_ago">Il y a %1$s %2$s</string>
+    <string name="days_before">%s jours avant</string>
+    <string name="days_later">Dans %1$s %2$s</string>
+    <string name="default_user">Utilisateur par défaut</string>
+    <string name="default_value">Valeur par défaut</string>
+    <string name="delete">Supprimer</string>
+    <string name="delete_account_tip">Confirmer la suppression du compte %s ?</string>
+    <string name="delete_all">Supprimer tout</string>
+    <string name="delete_backup_files_tip">Supprimer le fichier de Sauvegarde %s ?</string>
+    <string name="delete_cell_failed">Aucun contenu à supprimer !</string>
+    <string name="delete_info_tip">Vraiment supprimer les informations du %s ?</string>
+    <string name="delete_period">Supprimer les règles</string>
+    <string name="delete_period_tip">Êtes-vous sûr de vouloir supprimer ces règles ?</string>
+    <string name="delete_pregnancy_tip">Êtes-vous sûr de vouloir supprimer cette grossesse ?</string>
+    <string name="delete_pregnant_perid_tip">"L'enregistrement de la grossesse sera supprimé si vous supprimez les dernières règles avant la grossesse. 
+
+Voulez-vous supprimer ces règles ?"</string>
+    <string name="delete_pregnant_start_tip">"Vous devez annuler le mode grossesse avant de supprimer les dernières règles avant la grossesse. 
+
+Souhaitez-vous désactiver le mode grossesse ?"</string>
+    <string name="delete_tip">Vraiment supprimer?</string>
+    <string name="delivery_or_miscarriage">Accouchement ou fausse couche</string>
+    <string name="disable">Désactiver</string>
+    <string name="disable_reminder">Ceci désactivera le Rappel que vous avez configuré, cacher malgré tout ?</string>
+    <string name="done">Terminé</string>
+    <string name="dropbox">Dropbox</string>
+    <string name="dropbox_auth_fail">"Échec ou annulation de l'autorisation, réessayer ?"</string>
+    <string name="dropbox_last_backup">Dernière sauvegarde</string>
+    <string name="dropbox_last_restore">Dernières données restaurées</string>
+    <string name="dropbox_log_out">Se déconnecter du compte Dropbox de %s ?</string>
+    <string name="dropbox_no_space_tip">"Pas assez d'espace libre sur votre Dropbox pour sauvegarder vos données. Veuillez supprimer des fichiers."</string>
+    <string name="dropbox_restore">Restaurer les données à partir de Dropbox</string>
+    <string name="due_date">Date de naissance estimée</string>
+    <string name="duration">Cycle</string>
+    <string name="duration_is">Règles temps moyen</string>
+    <string name="early_start_tip">"Il n'y a que %2$s avant votre précédente date de début des règles. 
+
+Est-ce que vous voulez saisir cette règles sur %1$s ?"</string>
+    <string name="edit">Modifier</string>
+    <string name="edit_period">Modifier règles</string>
+    <string name="edit_period_help">"\"Modifier les règles\" apparaît 2 jours après la fin des règles. 
+
+Cliquez dessus pour modifier la période de fin des règles."</string>
+    <string name="edit_period_tip">"L'option \"Modifier les règles\" apparaît à la fin des règles, vous permettant d'indiquer la date de fin des règles."</string>
+    <string name="email_hint">E-mail</string>
+    <string name="enable">Activer</string>
+    <string name="enable_notification">Activer notifications</string>
+    <string name="enable_reminder_video_tip">Veuillez suivre le didacticiel pour activer les rappels.</string>
+    <string name="enable_tip">"Vous avez masqué %s, veuillez l'activer."</string>
+    <string name="end">Fin</string>
+    <string name="etc">etc.</string>
+    <string name="everyday_pill_tip">Prendre tous les jours</string>
+    <string name="export_document_to_Doctor">Exporter les documents pour un médecin</string>
+    <string name="feedback">Avis</string>
+    <string name="feedback_failed_tip">"Échec de l'envoi de feedback"</string>
+    <string name="feedback_hint_tip">Rétroaction ou suggestion</string>
+    <string name="feedback_mail_tip">Infos système</string>
+    <string name="feedback_title">Feedback Calendrier des Règles</string>
+    <string name="fertile_active">Fenêtre de fertilité</string>
+    <string name="fertile_close_tip">Rappel avant la période de fertilité</string>
+    <string name="fertility_alert">Rappel de %1$sfertilité%2$s</string>
+    <string name="fertility_alert_setup">Configuration des rappels de fertilité</string>
+    <string name="fertility_before_days_tip">Combien de jours avant le début de votre période de fertilité voulez-vous un rappel:</string>
+    <string name="fertility_is_coming_in_day">La période de fertilité commence dans %d jour !</string>
+    <string name="fertility_is_coming_in_days">La période de fertilité commence dans %d jours !</string>
+    <string name="file_size">Taille du fichier</string>
+    <string name="file_type_error_tip">Ce type de fichier ne peut pas être ouvert.</string>
+    <string name="find_password">Avez-vous oublié votre mot de passe ?</string>
+    <string name="find_password_tip">Cherchez dans vos e-mails sur %1$s en utilisant le mot clé %2$s pour trouver votre mot de passe.</string>
+    <string name="find_passwrod_email_text">"Abishkking :
+J'ai vraiment oublié mon mot de passe, pourriez-vous m'aider à le retrouver ?"</string>
+    <string name="first_day_of_week">Premier jour de la semaine</string>
+    <string name="first_pill_for_this_cycle_tip">Première pilule pour ce cycle</string>
+    <string name="five_stars_like">"J'aime"</string>
+    <string name="five_stars_like_pc">Est-ce que vous aimez %s?</string>
+    <string name="five_stars_not_now">Plus tard</string>
+    <string name="five_stars_rate">Donner 5 étoiles</string>
+    <string name="five_stars_rate_us">Si vous aimez notre application, veuillez nous donnez 5 étoiles.</string>
+    <string name="five_stars_submit">Envoyer</string>
+    <string name="five_stars_suggestion">Toute suggestion pour nous aider à améliorer Mon Calendrier :</string>
+    <string name="forget_password">Question secrète</string>
+    <string name="forget_password_email_title">Mot de passe oublié</string>
+    <string name="forget_password_tip">Veuillez nous contacter (abishkking@gmail.com) si vous avez oublié votre mot de passe. Nous restaurerons vos données après un test de sécurité.</string>
+    <string name="forum_language_tip">Ne plus montrer ce dialogue.</string>
+    <string name="free">Gratuit</string>
+    <string name="frequency_statistics">Fréquence</string>
+    <string name="fri">Vendredi</string>
+    <string name="friday">Ven</string>
+    <string name="ft">ft.</string>
+    <string name="ft_in">ft.+in.</string>
+    <string name="future_period">Prochaines règles</string>
+    <string name="future_taken_tip">"Ce n'est pas pour tout de suite, inutile de se presser."</string>
+    <string name="gmail">E-mail</string>
+    <string name="google_drive">Compte Google</string>
+    <string name="google_drive_log_out">Se déconnecter du compte Google de %s ?</string>
+    <string name="google_no_space_tip">"Pas assez d'espace libre sur votre Google Drive pour sauvegarder vos données. Veuillez supprimer des fichiers."</string>
+    <string name="got_it">COMPRIS</string>
+    <string name="has_exsit">%s est déjà dans la liste des pilules !</string>
+    <string name="have_intercourse_every">a un rapport tous les</string>
+    <string name="have_orgasm_every">a un orgasme tous les</string>
+    <string name="height_unit">Unité de taille</string>
+    <string name="help_us_correction">Donner des suggestions</string>
+    <string name="help_us_localization">Aidez-nous à localiser</string>
+    <string name="hide">Cacher</string>
+    <string name="high">ÉLEVÉES</string>
+    <string name="hold_mood_to_rename">Maintenir sur une icône pour la renommer</string>
+    <string name="hold_to_rename">Maintenir sur une icône pour la renommer</string>
+    <string name="how_to_backup_aa">Comment sauvegarder vos données sur un compte Google ?</string>
+    <string name="how_to_backup_ad">"Comment restaurer vos données à partir d'un compte Google ?"</string>
+    <string name="how_to_backup_u">"Comment restaurer vos données à partir d'un e-mail ?"</string>
+    <string name="how_to_backup_y">Comment sauvegarder vos données dans un e-mail ?</string>
+    <string name="how_to_change_phone">Comment se connecter sur un nouveau dispositif ?</string>
+    <string name="i_now_pregnancy">Je suis enceinte !</string>
+    <string name="ignore_irregular_cycle">Ignorer le cycle irrégulier</string>
+    <string name="in">in.</string>
+    <string name="inactive">Inactif</string>
+    <string name="inch">pouces</string>
+    <string name="information">Information</string>
+    <string name="input_present_tip">Veuillez saisir la traduction existante</string>
+    <string name="input_suggest_tip">Veuillez saisir votre suggestion de traduction</string>
+    <string name="insert_ring">"Insérer l'anneau"</string>
+    <string name="insert_ring_time">Insérer :</string>
+    <string name="intercourse_chart">Tableau des rapports</string>
+    <string name="interval">Intervalle</string>
+    <string name="intimate_times_today">Combien de fois</string>
+    <string name="is_cover_data_tip">"Attention !!! Si vous restaurez le fichier de sauvegarde, vous écraserez les données actuelles de l'application. 
+
+Souhaitez-vous continuer ?"</string>
+    <string name="items">Éléments</string>
+    <string name="kg">kg</string>
+    <string name="later">Plus tard</string>
+    <string name="lb">lb</string>
+    <string name="legend">Astuces</string>
+    <string name="legend_fertile">Fertile</string>
+    <string name="legend_intimate">Rapport sexuel</string>
+    <string name="legend_note">Note</string>
+    <string name="legend_ovulation">Ovulation</string>
+    <string name="legend_period">Règles</string>
+    <string name="legend_pill">Prennez votre médecine</string>
+    <string name="legend_spotting">Saignements</string>
+    <string name="legend_title">Aide</string>
+    <string name="lib_cancel">Annuler</string>
+    <string name="lib_five_stars_submit">Envoyer</string>
+    <string name="lib_new_five_stars_choose">Vos commentaires sont utiles.</string>
+    <string name="lib_new_five_stars_choose_1">"Je n'aime pas l'interface"</string>
+    <string name="lib_new_five_stars_choose_2">"N'a pas les fonctionnalités dont j'ai besoin"</string>
+    <string name="lib_new_five_stars_choose_3">"C'est difficile à utiliser"</string>
+    <string name="lib_new_five_stars_choose_4">"C'est trop compliqué"</string>
+    <string name="lib_new_five_stars_choose_5">La traduction est mauvaise</string>
+    <string name="lib_new_five_stars_close">FERMER</string>
+    <string name="lib_new_five_stars_rate">"Nous faisons de notre mieux pour vous offrir la meilleure expérience utilisateur. 
+
+Votre vote sera très apprécié."</string>
+    <string name="lib_new_five_stars_rate_us">"Vos commentaires aideront les autres utilisateurs. 
+
+Merci de laisser un avis sur Google Play."</string>
+    <string name="lib_rate">Évaluation</string>
+    <string name="lib_rate_dislike">"Je n'ai pas aimé."</string>
+    <string name="lib_rate_hate_it">"J'ai détesté."</string>
+    <string name="lib_rate_it_is_ok">"C'était pas mal."</string>
+    <string name="lib_rate_like_it">"J'ai bien aimé."</string>
+    <string name="lib_rate_love_it">"J'ai adoré."</string>
+    <string name="lib_rate_on_google">Évaluation sur Google play</string>
+    <string name="lib_the_best_we_can_get">"La meilleure note qu'on puisse avoir :)"</string>
+    <string name="local_storage">Stockage local</string>
+    <string name="lock_exit">Verrouiller et quitter</string>
+    <string name="lockpassword_confirm_pins_dont_match">Les codes PIN ne correspondent pas.</string>
+    <string name="lockpassword_confirm_your_pin_header">Confirmer votre code PIN</string>
+    <string name="lockpassword_press_continue">"Appuyez sur Continuer une fois l'opération terminée."</string>
+    <string name="loding">Chargement…</string>
+    <string name="log_out">Déconnexion</string>
+    <string name="log_weight_date">Date</string>
+    <string name="login">Connexion</string>
+    <string name="long_delete_tip">Maintenez pour supprimer dossier</string>
+    <string name="low">FAIBLES</string>
+    <string name="low_back_pain">Douleurs lombaires</string>
+    <string name="luteal_too_long_tip">"La phase lutéale dure généralement de 13-18 jours. 
+
+La date que vous avez saisie est peut-être à l'origine de l'erreur de prévision."</string>
+    <string name="m">m</string>
+    <string name="main_add_note">Ajouter Note</string>
+    <string name="main_calendar">Calendrier</string>
+    <string name="main_chart">Tableaux</string>
+    <string name="main_days_late">JOURS DE RETARD</string>
+    <string name="main_days_late_to_baby">Jours en retard pour bébé</string>
+    <string name="main_days_left">JOURS RESTANTS</string>
+    <string name="main_days_to_baby">Jours avant bébé</string>
+    <string name="main_get_start">Commencer</string>
+    <string name="main_log">Journal</string>
+    <string name="main_new_user">Nouvel utilisateur</string>
+    <string name="main_next_fertile">Fertilité suivante</string>
+    <string name="main_next_period">Règles suivantes</string>
+    <string name="main_of_period">JOUR DES RÈGLES</string>
+    <string name="main_period_end">Fin des règles</string>
+    <string name="main_period_start">Début des règles</string>
+    <string name="main_restore_data">Restaurer les données</string>
+    <string name="main_restore_data_tip">Restaurer les données du compte Google</string>
+    <string name="main_setting">Paramètres</string>
+    <string name="main_tap_me">Touchez-moi !</string>
+    <string name="main_time_to_baby">%1$s sem %2$s j</string>
+    <string name="medium">MOYENNES</string>
+    <string name="menses_long_tip">"La durée des règles saisie est de %s jours, cela ne correspond pas à une durée normale &lt;u>4 à 7&lt;/u> jours).
+
+De nombreuses raisons peuvent entraîner des règles irrégulières. 
+
+Pour plus d'informations, veuillez consulter votre médecin."</string>
+    <string name="mintues">Minutes</string>
+    <string name="mode_angelic">Angélique</string>
+    <string name="mode_angry">En colère</string>
+    <string name="mode_anxious">Anxieuse</string>
+    <string name="mode_assertive">Sûre de vous</string>
+    <string name="mode_bashful">Timide</string>
+    <string name="mode_blues">Mélancolique</string>
+    <string name="mode_bored">"S'ennuie"</string>
+    <string name="mode_confident">Confiante</string>
+    <string name="mode_cranky">Grincheuse</string>
+    <string name="mode_depressed">Déprimée</string>
+    <string name="mode_disappointed">Déçue</string>
+    <string name="mode_distrustful">Méfiante</string>
+    <string name="mode_dynamic">Dynamique</string>
+    <string name="mode_embarrassed">Gênée</string>
+    <string name="mode_emotional">Émotive</string>
+    <string name="mode_evil">Méchante</string>
+    <string name="mode_excited">Excitée</string>
+    <string name="mode_exhausted">Épuisée</string>
+    <string name="mode_flirtatious">Charmeuse</string>
+    <string name="mode_forgetful">Distraite</string>
+    <string name="mode_frisky">Fougueuse</string>
+    <string name="mode_frustrated">Frustrée</string>
+    <string name="mode_furious">Furieuse</string>
+    <string name="mode_grieved">Triste</string>
+    <string name="mode_grumpy">Grognon</string>
+    <string name="mode_harsh">Dure</string>
+    <string name="mode_homy">Casanière</string>
+    <string name="mode_hopeful">"Pleine d'espoir"</string>
+    <string name="mode_horny">Libidineuse</string>
+    <string name="mode_ill">Malade</string>
+    <string name="mode_in_love">Amoureuse</string>
+    <string name="mode_indifferent">Indifférente</string>
+    <string name="mode_industrious">Travailleuse</string>
+    <string name="mode_inspired">Inspirée</string>
+    <string name="mode_jealous">Jalouse</string>
+    <string name="mode_joy">Joyeuse</string>
+    <string name="mode_jubilation">Radieuse</string>
+    <string name="mode_lonely">Seule</string>
+    <string name="mode_mischievious">Malicieuse</string>
+    <string name="mode_misery">Abattue</string>
+    <string name="mode_morose">Morose</string>
+    <string name="mode_nesting">Fait son nid</string>
+    <string name="mode_neutral">Neutre</string>
+    <string name="mode_normal">Normale</string>
+    <string name="mode_not_patient">Impatiente</string>
+    <string name="mode_panic">Paniquée</string>
+    <string name="mode_peace">En paix</string>
+    <string name="mode_playful">Joueuse</string>
+    <string name="mode_pleased">Contente</string>
+    <string name="mode_proud">Menteuse</string>
+    <string name="mode_pure">Pure</string>
+    <string name="mode_relaxed">Détendue</string>
+    <string name="mode_satisfied">Satisfaite</string>
+    <string name="mode_secretive">Secrète</string>
+    <string name="mode_sexy">Sexy</string>
+    <string name="mode_shame">Honteuse</string>
+    <string name="mode_silly">Stupide</string>
+    <string name="mode_sleepy">Somnolente</string>
+    <string name="mode_smug">Satisfaite</string>
+    <string name="mode_stressed">Stressée</string>
+    <string name="mode_stunned">Stupéfaite</string>
+    <string name="mode_surprised">Surprise</string>
+    <string name="mode_tense">Tendue</string>
+    <string name="mode_torment">Tourmentée</string>
+    <string name="mode_unsafe">Pas en sécurité</string>
+    <string name="mode_weird">Bizarre</string>
+    <string name="mode_worry">Inquiète</string>
+    <string name="modify_password">Changer le mot de passe</string>
+    <string name="modify_password_fail">Échec du changement du mot de passe, veuillez réessayer !</string>
+    <string name="modify_password_success">Le mot de passe a été changé !</string>
+    <string name="mon">Lundi</string>
+    <string name="monday">Lun</string>
+    <string name="month">Mois</string>
+    <string name="months">Mois</string>
+    <string name="more">Plus</string>
+    <string name="more_backup">Plus de sauvegardes</string>
+    <string name="more_features_title">"J'aimerais plus d'options"</string>
+    <string name="move_to_phone">Passer au téléphone</string>
+    <string name="my_question_hint">Votre question</string>
+    <string name="network_error_backup_tip">"Impossible de sauvegarder les données à cause d'un problème réseau. Veuillez vérifier le réseau ou réessayer plus tard."</string>
+    <string name="network_error_restore_tip">"La restauration a échoué à cause d'un problème de réseau. Veuillez vérifier le réseau ou réessayer plus tard."</string>
+    <string name="new_five_stars_choose">Vos commentaires sont utiles.</string>
+    <string name="new_five_stars_choose_1">"Je n'aime pas l'interface"</string>
+    <string name="new_five_stars_choose_2">"N'a pas les fonctionnalités dont j'ai besoin"</string>
+    <string name="new_five_stars_choose_3">"C'est difficile à utiliser"</string>
+    <string name="new_five_stars_choose_4">"C'est trop compliqué"</string>
+    <string name="new_five_stars_choose_5">La traduction est mauvaise</string>
+    <string name="new_five_stars_close">FERMER</string>
+    <string name="new_five_stars_rate">"Nous faisons de notre mieux pour vous offrir la meilleure expérience utilisateur. 
+
+Votre vote sera très apprécié."</string>
+    <string name="new_five_stars_rate_us">"Vos commentaires aideront les autres utilisateurs. 
+
+Merci de laisser un avis sur Google Play."</string>
+    <string name="new_password">Nouveau mot de passe</string>
+    <string name="next">suiv.</string>
+    <string name="next_ovulation">Prochaine ovulation</string>
+    <string name="no">Non</string>
+    <string name="no_backup_file_tip">Aucune donnée à restaurer ici. Vous pouvez choisir une autre façon de restaurer vos données.</string>
+    <string name="no_fo_tip">"Vos dates de fertilité et d'ovulation ont été difficiles à prévoir en raison de votre cycle court (moins de 21 jours)."</string>
+    <string name="no_fo_title">Vous ne voyez pas les jours de fertilité ?</string>
+    <string name="no_google_play_tip">"Nous ne pouvons pas trouver Google Play sur votre mobile. Veuillez d'abord l'installer."</string>
+    <string name="no_longer_pregnant">Je ne suis plus enceinte</string>
+    <string name="no_name_tip">Veuillez saisir votre nom.</string>
+    <string name="no_pill_days_tip">Jours de pause ou placebo</string>
+    <string name="no_space_error">"Vous ne pouvez pas sauvegarder vos données car il ne vous reste que %1$sMo d'espace sur votre téléphone. 
+
+Il vous faut %2$sMo pour pouvoir sauvegarder vos données. 
+
+Veuillez supprimer des fichiers et recommencer la sauvegarde."</string>
+    <string name="no_start_tip">"Merci de d'abord saisir le début de vos règles."</string>
+    <string name="no_thanks">Non, merci</string>
+    <string name="none_tip">Aucun mot de passe ou code PIN</string>
+    <string name="not_yet">Pas maintenant</string>
+    <string name="notelist_height">Taille</string>
+    <string name="notelist_intercourse">Rapport sexuel</string>
+    <string name="notelist_mood">Humeurs</string>
+    <string name="notelist_no_condom">Sans protection</string>
+    <string name="notelist_note">Note</string>
+    <string name="notelist_ovulation_test">"Test d'ovulation"</string>
+    <string name="notelist_period_end">"Fin des règles aujourd'hui"</string>
+    <string name="notelist_period_end1">Fin des règles</string>
+    <string name="notelist_period_start">"Début des règles aujourd'hui"</string>
+    <string name="notelist_period_start1">Début des règles</string>
+    <string name="notelist_pill">Médicament</string>
+    <string name="notelist_symptom">Symptômes</string>
+    <string name="notelist_temp">Température</string>
+    <string name="notelist_weight">Poids</string>
+    <string name="notelist_with_condom">Avec protection</string>
+    <string name="notification">Notifications</string>
+    <string name="notification_enable_setting">Aller dans Paramètres</string>
+    <string name="notification_enable_tip">"Aller dans Paramètres -- Gest. démarrage -- Autoriser %s à s'exécuter au démarrage du téléphone."</string>
+    <string name="notification_enable_tip_title">%s Pour activer les notifications</string>
+    <string name="notification_text">Message</string>
+    <string name="notification_time">Heure de la notification</string>
+    <string name="now_pregnancy">Vous êtes toujours enceinte ! Souhaitez-vous désactiver le mode grossesse ?</string>
+    <string name="number_invalid">Le chiffre saisi est incorrect !</string>
+    <string name="ok">OK</string>
+    <string name="on_sdcard_tip">"L'appli sur la carte SD peut désactiver les notifications en raison des limitations Android. 
+
+Il est recommandé d'utiliser sur la mémoire interne du téléphone."</string>
+    <string name="online_password_retrieve">Récupération en ligne du mot de passe</string>
+    <string name="option">option</string>
+    <string name="orgasm">Orgasme féminin</string>
+    <string name="orgasm_probability">"Probabilité d'orgasme"</string>
+    <string name="orgasm_report">"Rapport d'orgasme"</string>
+    <string name="other_medicine">Autre médicament</string>
+    <string name="ovulation_alert">"Rappel %1$sd'ovulation%2$s"</string>
+    <string name="ovulation_alert_setup">"Configuration des rappels d'ovulation"</string>
+    <string name="ovulation_and_fertile">Ovulation et fertilité</string>
+    <string name="ovulation_before_days_tip">"Combien de jours avant l'ovulation voulez-vous un rappel:"</string>
+    <string name="ovulation_close_tip">"Rappel avant la période d'ovulation"</string>
+    <string name="ovulation_day">"Jour d'ovulation"</string>
+    <string name="ovulation_is_coming_in_day">"L'ovulation commence dans %d jour !"</string>
+    <string name="ovulation_is_coming_in_days">"L'ovulation commence dans %d jours !"</string>
+    <string name="password">Mot de passe</string>
+    <string name="password_email_tip">Ceci sert UNIQUEMENT à sauvegarder votre mot de passe.</string>
+    <string name="password_hint">Mot de passe</string>
+    <string name="password_null">Saisissez votre mot de passe</string>
+    <string name="password_wrong">Le mot de passe est erroné !</string>
+    <string name="past">Passé</string>
+    <string name="pc_version_low">"Cette version de l'application n'est pas compatible avec la version de l'apparence. 
+
+Veuillez mettre l'application à jour vers la dernière version dans Google Play."</string>
+    <string name="period_alert">Rappel de %1$srègles%2$s</string>
+    <string name="period_alert_setup">Configuration des rappels de règles</string>
+    <string name="period_already_exist">"L'historique des règles existe déjà."</string>
+    <string name="period_before_days_tip">Combien de jours avant le début de vos règles voulez-vous un rappel:</string>
+    <string name="period_close_tip">Rappel avant la période des règles</string>
+    <string name="period_countdown">Compte à rebours de règles</string>
+    <string name="period_edit_menses_tip">"Vos règles ont duré %s jours. La durée normale est de 4 à 7 jours. 
+
+De nombreuses raisons peuvent entraîner des règles irrégulières. Pour plus d'informations, veuillez consulter votre médecin."</string>
+    <string name="period_ends_date">Fin des règles</string>
+    <string name="period_input_after_days_tip">Combien de jours après le début de vos règles voulez-vous recevoir un rappel :</string>
+    <string name="period_input_alert_setup">Configuration des rappels de saisie des règles</string>
+    <string name="period_input_default_notificaiton_text">Avez-vous oublié de saisir vos règles?</string>
+    <string name="period_input_end_date_early">"Vos règles précédentes ont commencé le %1$s. 
+
+Vous ne pouvez pas choisir %2$s comme fin de ces règles parce que cette date se situe avant le début de ces règles."</string>
+    <string name="period_input_end_date_too_long">"La durée des saignements est plus longue que les jours de votre cycle. Vos règles durent normalement entre 4 et 7 jours. 
+
+Veuillez vérifier la date de fin de vos règles et la saisir de nouveau."</string>
+    <string name="period_input_reminder_title">Rappel de %1$ssaisie des règles%2$s</string>
+    <string name="period_input_start_date_early_end">"Vos règles précédentes ont commencé le %1$s. 
+
+Vous ne pouvez choisir %2$s comme date de début de grossesse car cette date de situe avant la fin de vos règles précédentes."</string>
+    <string name="period_input_start_date_late">"Vos règles précédentes ont commencé le %1$s. 
+
+Vous ne pouvez pas choisir %2$s comme date de début de grossesse parce que cette date se situe après le début de vos règles suivantes."</string>
+    <string name="period_input_tip">Rappel avant la saisie des règles</string>
+    <string name="period_is_coming">Les règles arrivent</string>
+    <string name="period_is_coming_in_day">Les règles commenceront dans %d jours !</string>
+    <string name="period_is_coming_in_days">Les règles commenceront dans %d jours !</string>
+    <string name="period_length">Durée des règles</string>
+    <string name="period_length_color">Durée des %1$srègles%2$s</string>
+    <string name="period_menses_setting_tip">"Si vous n'êtes pas sûre ou que vous ne connaissez pas la durée précise de votre cycle, nous calculerons automatiquement la durée moyenne de votre cycle plus tard."</string>
+    <string name="period_start_date">Date de début des règles</string>
+    <string name="phone_date">Date du téléphone</string>
+    <string name="phone_memery_low">"L'espace de stockage de votre téléphone est plein ! Il ne reste que %s Mo.
+
+veuillez supprimer des applications afin de vous assurer qu'il reste plus de 10 Mo."</string>
+    <string name="pill_birth_control_reminder_title">Pilule contraceptive</string>
+    <string name="pill_error_time_tip">"Votre jours de cycle %1$s sont les jours %2$s. La première date saisie est antérieure à la date de votre premier cycle. 
+
+Vraiment saisir la première date ?"</string>
+    <string name="pill_wiki">"La pilule combinée, appelée aussi pilule œstroprogestative est la troisième méthode contraceptive la plus utilisée au monde. .
+
+Elle contient les deux hormones de synthèse (un œstrogène et un progestatif. (Wikipédia)"</string>
+    <string name="pin_length_tip_1">Le code PIN doit être composé de 4 chiffres!</string>
+    <string name="pin_length_tip_3">Veuillez saisir votre adresse e-mail pour récupérer votre code PIN.</string>
+    <string name="please_input_pill_name">Veuillez saisir le nom du médicament</string>
+    <string name="please_take_your_pill">Veuillez prendre votre %s !</string>
+    <string name="predict_title">Type de prédiction</string>
+    <string name="prediction">Prévisions</string>
+    <string name="pregnancy_begin">Félicitations ! Cliquez sur Continuer pour garder le mode grossesse activé.</string>
+    <string name="pregnancy_chance">Chances de grossesse</string>
+    <string name="pregnancy_chance_b">CHANCES DE GROSSESSE</string>
+    <string name="pregnancy_end_input_date_early">"Cette grossesse a commencé le %1$s. 
+
+Vous ne pouvez pas choisir %2$s comme fin de cette grossesse parce que cette date se situe avant le début de votre grossesse."</string>
+    <string name="pregnancy_end_input_date_too_long">Votre grossesse dure plus de 350 jours. Veuillez réinitialiser la date de fin.</string>
+    <string name="pregnancy_mistake">Désactiver le mode grossesse</string>
+    <string name="pregnancy_mistake_tip">Si vous avez activé le mode grossesse par erreur, vous pouvez le désactiver ici.</string>
+    <string name="pregnancy_over">Je ne suis plus enceinte.</string>
+    <string name="pregnancy_over_tip">"Si vous rencontrez l'une des situations suivantes :
+
+*Accouchement
+*Fausse couche
+*Avortement
+
+Veuillez cliquer sur Je ne suis plus enceinte."</string>
+    <string name="pregnancy_start_input_date_late">"Cette grossesse a commencé le %1$s. 
+
+Vous ne pouvez pas choisir %2$s comme début de cette grossesse parce que cette date se situe après la fin de votre grossesse."</string>
+    <string name="pregnant">Enceinte</string>
+    <string name="pregnant_end_date">Date de fin de grossesse</string>
+    <string name="pregnant_end_input_date_early">"Vos règles précédentes ont commencé le %1$s. 
+
+Vous ne pouvez pas choisir %2$s comme date de début de grossesse parce que cette date se situe avant le début de vos règles précédentes."</string>
+    <string name="pregnant_end_input_date_late">"Vos règles précédentes ont commencé le %1$s. 
+
+Vous ne pouvez pas choisir %2$s comme date de début de grossesse parce que cette date se situe après le début de vos règles suivantes."</string>
+    <string name="prepare_data">Préparation des données …</string>
+    <string name="present">actuel</string>
+    <string name="present_date">Date du jour</string>
+    <string name="press_to_rename">Touchez pour renommer</string>
+    <string name="preview_skin">"Aperçu de l'apparence"</string>
+    <string name="previous">Précédent</string>
+    <string name="previous_period_day">Précédent %s jour de règles</string>
+    <string name="previous_period_end">Précédente date de fin des règles</string>
+    <string name="previous_period_start">Précédente date de début des règles</string>
+    <string name="protected_text">Protégé</string>
+    <string name="purchase">Acheter</string>
+    <string name="question_null">Saisissez votre question</string>
+    <string name="rate">Évaluation</string>
+    <string name="rate_dislike">"Je n'ai pas aimé."</string>
+    <string name="rate_feedback_message">Est-ce que vous voulez bien nous donner votre avis ?</string>
+    <string name="rate_hate_it">"J'ai détesté."</string>
+    <string name="rate_it_is_ok">"C'était pas mal."</string>
+    <string name="rate_leave_review">Donner une évaluation</string>
+    <string name="rate_like">Oui !</string>
+    <string name="rate_like_it">"J'ai bien aimé."</string>
+    <string name="rate_love_it">"J'ai adoré."</string>
+    <string name="rate_main_message">Profitez bien de %s?</string>
+    <string name="rate_market">Notez-nous sur Google Play</string>
+    <string name="rate_not_like">Pas vraiment</string>
+    <string name="rate_on_google">Évaluation sur Google play</string>
+    <string name="rate_review_message">Est-ce que vous pouvez nous laisser une évaluation sympa? Cela nous aiderait vraiment.</string>
+    <string name="rate_tip_1">Votre évaluation et vos commentaires nous aideraient vraiment à améliorer notre appli.</string>
+    <string name="rate_tip_2">Nous vous serions reconnaissant de prendre un instant pour nous évaluer et nous faire part de vos commentaires.</string>
+    <string name="rate_tip_3">Vos éloges pour nous</string>
+    <string name="rate_tip_4">Votre évaluation aidera les autres utilisateurs. Veuillez faire votre évaluation et donner vos commentaires sur Google play.</string>
+    <string name="re_enter">Saisir de nouveau</string>
+    <string name="read_onlt_tip">Votre dossier choisi est en lecture seule, nous allons enregistrer vos données dans la mémoire mobile.</string>
+    <string name="read_only_error">La sauvegarder a échoué parce que le dossier est en lecture seule. Veuillez sélectionner un autre dossier.</string>
+    <string name="recent">Récent</string>
+    <string name="recommended_for_you">Recommandé pour vous</string>
+    <string name="reminder_detail">Règles, ovulation et pilule</string>
+    <string name="reminder_off_1">Rappel désactivé</string>
+    <string name="remove_period">Supprimer règles</string>
+    <string name="remove_pregnancy">Supprimer la grossesse</string>
+    <string name="remove_ring_time">A enlever le :</string>
+    <string name="rename">Renommer</string>
+    <string name="rename_pill_name">Voulez-vous changer le nom de votre contraceptif ?</string>
+    <string name="repassword_hint">Confirmer le mot de passe</string>
+    <string name="repassword_wrong">Vos mots de passe ne sont pas identiques !</string>
+    <string name="repeat">Répétition</string>
+    <string name="replace">Remplacer</string>
+    <string name="report_another">Autre signalement</string>
+    <string name="report_center_title">Rapport</string>
+    <string name="request_new_feature">Demander une nouvelle option</string>
+    <string name="reselect">Sélectionner de nouveau</string>
+    <string name="reset">Réinitialiser</string>
+    <string name="reset_app">Supprimer toutes les données</string>
+    <string name="reset_app_tip">"Voulez-vous vraiment réinitialiser l'application et supprimer toutes les données?"</string>
+    <string name="reset_for_google_play">"Vous ne pouvez pas sauvegarder ou restaurer vos données via votre compte Google parce que vous n'avez pas installé Google Play Service. 
+
+Veuillez installer Google Play Service."</string>
+    <string name="reset_password_tip">"Vous devez réinitialiser votre mot de passe après avoir débloqué votre compte à l'aide de la question de sécurité."</string>
+    <string name="restart_phone">Redémarrer le téléphone</string>
+    <string name="restart_phone_tip">"Erreur avec le système de fichiers. Veuillez redémarrer le téléphone. 
+
+Si cela ne résout pas le problème, veuillez nous envoyer le journal."</string>
+    <string name="restore">Restaurer</string>
+    <string name="restore_data">Restauration des données …</string>
+    <string name="restore_failed">Échec de la restauration des données</string>
+    <string name="restore_no_space_error">"Vous ne pouvez pas sauvegarder vos données car il ne vous reste que %1$sMo d'espace sur votre téléphone. 
+
+Il vous faut %2$sMo pour pouvoir sauvegarder vos données. 
+
+Veuillez supprimer des fichiers et recommencer la sauvegarde."</string>
+    <string name="restore_read_only_error">La restauration a échoué car le dossier est en lecture seule. Veuillez redémarrer le téléphone.</string>
+    <string name="restore_success">Vos données de Sauvegarde %s ont été restaurées avec succès.</string>
+    <string name="restr_pin_enter_pin">Saisir le code PIN</string>
+    <string name="result_negative">Négatif</string>
+    <string name="result_position">Positif</string>
+    <string name="retrieve_password_failed">Connexion expirée. Veuillez réessayer ou envoyer un e-mail à l’assistance pour récupérer votre mot de passe.</string>
+    <string name="retrieve_password_success_tip">Attention ! Le mot de passe a été envoyé à%s.&lt;br>Veuillez consulter aussi les dossiers &lt;font color=red>COURRIER INDÉSIRABLE&lt;/font> ou &lt;font color=red>SPAM&lt;/font>.</string>
+    <string name="retrieve_password_success_title">Mot de passe envoyé avec succès</string>
+    <string name="retry">Réessayer</string>
+    <string name="ringtone">Sonnerie</string>
+    <string name="sat">Samedi</string>
+    <string name="saturday">Sam</string>
+    <string name="save">Sauvegarder</string>
+    <string name="save_changes">Sauvegarder les modifications?</string>
+    <string name="scroll_date_period_end">Faites défiler pour choisir la date de fin de vos règles</string>
+    <string name="scroll_date_period_start">Faites défiler pour choisir la date de début de vos règles</string>
+    <string name="sd_unmount">"Impossible de trouver la carte mémoire, veuillez la vérifier et redémarrer l'application."</string>
+    <string name="search_email">Recherche email</string>
+    <string name="searching">Recherche…</string>
+    <string name="security_question">Question secrète</string>
+    <string name="see_more_in">En savoir plus dans</string>
+    <string name="select_date">Choisir le date</string>
+    <string name="select_date_format_title">Choisir le format de date</string>
+    <string name="select_folder">Sélectionner le dossier</string>
+    <string name="select_pc">Veuillez choisir %s</string>
+    <string name="send">Envoyer</string>
+    <string name="send_email_again">"Envoyer de nouveau l'e-mail"</string>
+    <string name="send_email_tip">"Attention ! Le mot de passe sera envoyé à%s.&lt;br> 
+
+Veuillez consulter aussi vos dossiers de courrier indésirable et de spam. 
+
+Vous pouvez demander que l'email soit envoyé à nouveau ou nous contacter si vous ne recevez pas l'e-mail."</string>
+    <string name="send_history_email_title">Historique de %s</string>
+    <string name="send_review">Envoyer les commentaires</string>
+    <string name="send_us_log">Nous envoyer le journal</string>
+    <string name="sending">Envoi…</string>
+    <string name="set_acknowledgements">Remerciements</string>
+    <string name="set_average_cycle_help">"Activez cette option pour utiliser une valeur moyenne afin de prédire vos prochaines règles.
+
+Désactivez cette option pour utiliser une valeur fixe afin de prédire vos prochaines règles."</string>
+    <string name="set_average_cycle_tip">La durée de votre cycle?</string>
+    <string name="set_average_ignore_notice">Vos prévisions peuvent être affectées en cas de règles irrégulières si vous désactivez cette option.</string>
+    <string name="set_average_mense_tip">La durée de vos &lt;font color=#eb6774>règles&lt;/font>?</string>
+    <string name="set_average_ovulation_help">"Activez cette option pour utiliser une valeur moyenne afin de prédire votre prochaine ovulation.
+
+Désactivez cette option pour utiliser une valeur fixe afin de prédire votre prochaine ovulation."</string>
+    <string name="set_backup">Sauvegarder et restaurer</string>
+    <string name="set_card_data">Toucher ici pour définir</string>
+    <string name="set_condom_option">Option de protection</string>
+    <string name="set_data_and_account">DONNÉES ET COMPTE</string>
+    <string name="set_default_cycle_tip">La durée de votre cycle, généralement compris entre 23 et 35 jours.</string>
+    <string name="set_developer_options">Options pour les développeurs</string>
+    <string name="set_forum">Forum</string>
+    <string name="set_has_ovulation">Ovulation/Fertilité</string>
+    <string name="set_help_us_correct_content">"J'ai trouvé %s quelques erreurs de traduction, veuillez vérifier :"</string>
+    <string name="set_help_us_correct_tip">"Si vous avez trouvé des erreurs dans la traduction.
+Par exemple :
+Mone calendrier (actuel)
+Mon calendrier (suggestion)"</string>
+    <string name="set_help_us_correct_title">%s améliorations de la traduction</string>
+    <string name="set_help_us_email_tip">"J'aimerais vous aider à traduire le Calendrier des règles. Veuillez me contacter."</string>
+    <string name="set_help_us_email_title">Traduction du Calendrier des Règles</string>
+    <string name="set_help_us_trans_tip">Si vous ne trouvez pas votre langue maternelle dans notre application et que vous souhaitez nous aider à la traduire.</string>
+    <string name="set_irregular_periods_help">Généralement, nous ignorons les cycles de moins de 15 jours et de plus de 90 jours.</string>
+    <string name="set_language">Langue</string>
+    <string name="set_last_period_tip">Date de début de vos dernières règles?</string>
+    <string name="set_last_period_tip1">Date de début de vos dernières règles</string>
+    <string name="set_ovulation_length">Durée de la phase lutéale</string>
+    <string name="set_ovulation_length_tip">"La phase lutéale est la période située après l'ovulation et le début des prochaines règles, généralement d'une durée de 14 jours."</string>
+    <string name="set_password">Définir le mot de passe</string>
+    <string name="set_period_length_tip">Les saignements durent en général de 4 à 7 jours.</string>
+    <string name="set_personalize">PERSONNALISER</string>
+    <string name="set_pregnancy_tip">"Toucher « Je suis enceinte ! » mettra en pause les prévisions des règles et lancera un décompte jusqu'à la date de votre accouchement."</string>
+    <string name="set_pregnancy_title">Grossesse</string>
+    <string name="set_reminders">RAPPELS</string>
+    <string name="set_show_options">Montrer/Masquer options</string>
+    <string name="set_support_us">NOUS SOUTENIR</string>
+    <string name="set_units">Unité de mesure</string>
+    <string name="set_use_cycle_length">Nous utilisons la durée du cycle pour prédire le début de vos prochaines règles.</string>
+    <string name="set_use_ovulation_length">Nous utilisons la durée de la phase lutéale pour prédire la prochaine ovulation</string>
+    <string name="setting_general">PARAMÈTRES GÉNÉRAUX</string>
+    <string name="setting_period">RÈGLES</string>
+    <string name="setting_qa_a">Comment modifier ou supprimer un enregistrement de règles ?</string>
+    <string name="setting_qa_e">"Comment ajuster les jours d'ovulation/de fertilité ?"</string>
+    <string name="setting_qa_l">"Pourquoi les jours de fertilité ne s'affichent-ils pas dans le calendrier ?"</string>
+    <string name="setting_qa_t">"Comment cacher les jours d'ovulation/de fertilité dans le calendrier ?"</string>
+    <string name="setting_qa_y">Comment faire une sauvegarde sur un compte Google et restaurer depuis cette sauvegarde ?</string>
+    <string name="share_tip">"Le Calendrier des Règles est génial !
+
+Essaie-le sur : https://play.google.com/store/apps/details?id=com.popularapp.periodcalendar
+
+C'est une super application pour suivre tes règles, ton ovulation, tes symptômes et toutes ces choses qui sont importantes pour toi. Je l'adore ! Elle est très précise, très pro et entièrement gratuite ! Il faut absolument que tu l'essaie !"</string>
+    <string name="share_title">Partager Period Calendar avec vous</string>
+    <string name="share_with_friend">Partager</string>
+    <string name="show">Afficher</string>
+    <string name="show_hide">Montrer/Cacher</string>
+    <string name="show_intercourse">"Afficher l'option de rapport"</string>
+    <string name="silent">Silencieux</string>
+    <string name="since_pregnency">depuis la grossesse</string>
+    <string name="skin_error_tip">"Erreur avec l'apparence %s. L'apparence par défaut sera automatiquement appliquée."</string>
+    <string name="skin_version_low">"Cette version de l'apparence n'est pas compatible avec la version de l'application. 
+
+Veuillez mettre l'apparence à jour vers la dernière version dans Google Play."</string>
+    <string name="skip">Passer</string>
+    <string name="snooze">Répéter</string>
+    <string name="start">Début</string>
+    <string name="start_date">Date estimée du début de la gestation</string>
+    <string name="statistics">Statistiques</string>
+    <string name="suggest">suggestion</string>
+    <string name="suggestion_please">Laissez-nous vos suggestions</string>
+    <string name="sun">Dimanche</string>
+    <string name="sunday">Dim</string>
+    <string name="switch_account">Changer de compte</string>
+    <string name="switch_account_tip">Basculer vers le compte de %s ?</string>
+    <string name="switch_text">Basculer</string>
+    <string name="symp_abdominal_cramps">Crampes abdominales</string>
+    <string name="symp_acne">Acné</string>
+    <string name="symp_anxiety">Anxiété</string>
+    <string name="symp_astriction">Constipation</string>
+    <string name="symp_backaches">Maux de dos</string>
+    <string name="symp_bloating">Ballonnements</string>
+    <string name="symp_body_abdomen">Abdomen</string>
+    <string name="symp_body_aches">Courbatures</string>
+    <string name="symp_body_body">Corps</string>
+    <string name="symp_body_cervix">"Col de l'utérus"</string>
+    <string name="symp_body_fluid">Fluide</string>
+    <string name="symp_body_head">Tête</string>
+    <string name="symp_body_mental">Mental</string>
+    <string name="symp_breast_sensitivity">Seins sensibles</string>
+    <string name="symp_breast_tenderness">Seins douloureux</string>
+    <string name="symp_cervical_firmness">Col ferme</string>
+    <string name="symp_cervical_mucus">Glaires cervicales</string>
+    <string name="symp_cervical_opening">Col dilaté</string>
+    <string name="symp_chills">Frissons</string>
+    <string name="symp_confused">Confusion</string>
+    <string name="symp_cottage_cheese">Fromage blanc</string>
+    <string name="symp_cramps">Crampes</string>
+    <string name="symp_cravings">Envies</string>
+    <string name="symp_creamy">Crémeuse</string>
+    <string name="symp_diarrhea">Diarrhée</string>
+    <string name="symp_dizziness">Vertiges</string>
+    <string name="symp_dry">Sèche</string>
+    <string name="symp_dyspepsia">Dyspepsie</string>
+    <string name="symp_egg_white">"Blancs d'œufs"</string>
+    <string name="symp_fatigue">Fatigue</string>
+    <string name="symp_flow">Intensité</string>
+    <string name="symp_foul_smelling">Mauvaise odeur</string>
+    <string name="symp_gassy">Gaz</string>
+    <string name="symp_green">Verte</string>
+    <string name="symp_headaches">Céphalées</string>
+    <string name="symp_hectic_fever">Fièvre</string>
+    <string name="symp_hot_flashes">Bouffées de chaleur</string>
+    <string name="symp_hungry">Faim</string>
+    <string name="symp_illness">Maladie</string>
+    <string name="symp_influenza">Grippe</string>
+    <string name="symp_insomnia">Insomnie</string>
+    <string name="symp_irritability">Irritabilité</string>
+    <string name="symp_irritation">Irritation</string>
+    <string name="symp_itch">Démangeaisons</string>
+    <string name="symp_migraine">Migraines</string>
+    <string name="symp_moody">"Sautes d'humeur"</string>
+    <string name="symp_muscle_pain">Douleurs musculaires</string>
+    <string name="symp_neckaches">Torticolis</string>
+    <string name="symp_night_sweat">Sueurs nocturnes</string>
+    <string name="symp_ovulation_pain">"Douleurs liées à l'ovulation"</string>
+    <string name="symp_pelvic_pain">Douleurs pelviennes</string>
+    <string name="symp_pms">SPM</string>
+    <string name="symp_queasiness">Nausées</string>
+    <string name="symp_rash">Rougeurs</string>
+    <string name="symp_shoulder_ache">Épaules douloureuses</string>
+    <string name="symp_spotting">Saignements</string>
+    <string name="symp_sticky">Collante</string>
+    <string name="symp_stress">Stress</string>
+    <string name="symp_tension">Tension</string>
+    <string name="symp_trouble_concentrating">Concentration difficile</string>
+    <string name="symp_watery">Humide</string>
+    <string name="symp_weight_gain">Prise de poids</string>
+    <string name="symp_with_blood">Avec sang</string>
+    <string name="symptom_and_mood">Symptômes et humeurs</string>
+    <string name="sync_google_fit">Synchroniser avec Google Fit</string>
+    <string name="sync_google_fit_tip">"Vous pouvez automatiquement synchroniser la taille et le poids depuis %s sur Google Fit en associant votre compte Google Fit.
+
+Veuillez noter que vous devez utiliser la version 6.5 ou une version plus récente du service Google Play pour pouvoir utiliser Google Fit."</string>
+    <string name="system_default">Paramètres par défaut</string>
+    <string name="take_everyday_tip">Voulez-vous prendre la pilule tous les jours ?</string>
+    <string name="take_injeciton">"Effectuer l'injection"</string>
+    <string name="take_pill">Prendre la pilule</string>
+    <string name="take_pill_days">"Aujourd'hui est le jour %1$s sur %2$s %3$s"</string>
+    <string name="take_pill_time">Heure de prise de la pilule :</string>
+    <string name="taking_pill">Prendre la pilule</string>
+    <string name="tap_to_edit">Touchez pour modifier</string>
+    <string name="temp_error_content_c">"La température corporelle doit se situer entre 30 et 50℃. 
+
+Veuillez vérifier l'unité de mesure ou la valeur saisie."</string>
+    <string name="temp_error_content_f">"La température corporelle doit se situer entre 86 et 122℉. 
+
+Veuillez vérifier l'unité de mesure ou la valeur saisie."</string>
+    <string name="temp_saved">Température enregistrée</string>
+    <string name="temperature_unit">Unité de température</string>
+    <string name="that_is_all">"C'est tout"</string>
+    <string name="the_patch_default_notificaiton_text">Veuillez appliquer votre %s !</string>
+    <string name="the_patch_tip_1">Ceci est un rappel répété pour que vous pensiez à appliquer votre patch.</string>
+    <string name="the_patch_tip_3">Premier patch pour ce cycle</string>
+    <string name="the_patch_wiki">"Le patch contraceptif est un moyen de contraception féminin qui va diffuser la dose d'hormones nécessaire pendant une durée d'une semaine. (Wikipédia)"</string>
+    <string name="theme">Thèmes</string>
+    <string name="thu">Jeudi</string>
+    <string name="thursday">Jeu</string>
+    <string name="time_line">Chronologie</string>
+    <string name="time_to_take">"Il est l'heure de prendre votre %s."</string>
+    <string name="times">Fois</string>
+    <string name="tip">Astuce</string>
+    <string name="today">"Aujourd'hui"</string>
+    <string name="tomorrow">Demain</string>
+    <string name="track_another_person">Ajouter un autre utilisateur</string>
+    <string name="tues">Mardi</string>
+    <string name="tuesday">Mar</string>
+    <string name="turn_off">Désactiver</string>
+    <string name="turn_on">Activer</string>
+    <string name="tutorial_video">Vidéo de didacticiel</string>
+    <string name="two_period_short_tip">"Il n'y a que %s jours entre 2 cycles de règles. Voulez-vous continuer ?"</string>
+    <string name="undo">Annuler</string>
+    <string name="unknown_error_backup_tip">Impossible de sauvegarder les données pour des raisons inconnues. Veuillez réessayer, ou envoyez-nous le journal et nous y remédierons dès que possible.</string>
+    <string name="unknown_error_restore_tip">La restauration a échoué pour des raisons inconnues. Veuillez réessayer, ou envoyez-nous le journal et nous y remédierons dès que possible.</string>
+    <string name="unlock_set_unlock_off_title">Aucun</string>
+    <string name="unlock_set_unlock_pin_title">Code PIN</string>
+    <string name="unprotected">Non protégé</string>
+    <string name="update">Mise à jour</string>
+    <string name="update_period">Modifier les règles</string>
+    <string name="use_average">Utiliser la moyenne</string>
+    <string name="use_default">Utiliser défaut</string>
+    <string name="use_default_days">Utiliser %s jours par défaut</string>
+    <string name="used_before">"Je l'ai déjà utilisé"</string>
+    <string name="v_rings_continue_days_tip">"Jours où l'anneau est porté"</string>
+    <string name="v_rings_insert_date_tip">"La date d'insertion pour ce cycle"</string>
+    <string name="v_rings_please_insert_your_ring">Veuillez insérer votre %s !</string>
+    <string name="v_rings_please_remove_your_ring">Veuillez retirer votre %s !</string>
+    <string name="v_rings_remove_tip">"Retirer l'anneau"</string>
+    <string name="v_rings_tip">Ceci est un rappel répété pour que vous pensiez à insérer ou retirer votre anneau vaginal.</string>
+    <string name="v_rings_wiki">"L'anneau vaginal ou anneau contraceptif est un anneau d'un diamètre d'environ 6 cm qui diffuse progressivement pendant trois semaines la dose nécessaire d'hormones (progestatif et œstrogène). (Wikipédia)"</string>
+    <string name="vibrate">Vibreur</string>
+    <string name="warning">Avertissement</string>
+    <string name="wed">Mercredi</string>
+    <string name="wednesday">Mer</string>
+    <string name="week">Sem.</string>
+    <string name="weeks">Sem.</string>
+    <string name="weight_unit">Unité de poids</string>
+    <string name="welcome">Bienvenue</string>
+    <string name="widget_all">Compte à rebours de règle et ovulation</string>
+    <string name="widget_cycle_day">Jour du cycle</string>
+    <string name="widget_next_ovulation">Ovulation:</string>
+    <string name="widget_next_period">Règles:</string>
+    <string name="widget_ovulation">"Compte à rebours de d'ovulation"</string>
+    <string name="write_sth">Écrire quelque chose</string>
+    <string name="wrong_email_tip">Veuillez saisir une adresse e-mail correcte.</string>
+    <string name="wrong_file_type_tip">"Impossible d'ouvrir le document avec %s. Seules les fichiers d'extension &lt;font color=red>.pc&lt;/font> sont pris en charge, veuillez vérifier."</string>
+    <string name="yes">Oui</string>
+    <string name="yesterday">Hier</string>
+    <string name="you_suggest">Votre suggestion de traduction :</string>
+    <string name="your_cycle_length">Durée de votre cycle</string>
+    <string name="ovulation_notice_content">"Différents tests d'ovulation urinaires (TOU ou kits LH) permettent de détecter l'hormone lutéinisante (LH) et donc la période à laquelle une femme est le plus susceptible d'ovuler. 
+
+Le passage du négatif au positif suggère que l'ovulation va se produire dans un délai de 24 à 48 heures, ce qui donne un délai de deux jours pour avoir des rapports sexuels ou effectuer une insémination artificielle dans le but d'avoir un enfant. (Tiré de Wikipédia)
+
+Pour en savoir plus, veuillez vous rendre à l'adresse suivante :
+https://goo.gl/qEoQTS"</string>
+    <string name="week_unit">Semaine</string>
+</resources>

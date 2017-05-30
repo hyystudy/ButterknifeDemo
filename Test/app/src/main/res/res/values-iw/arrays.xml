@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cycle_dialog_values">
+        <item>נתוני חודש אחרון</item>
+        <item>נתוני 3 חודשים אחרונים</item>
+        <item>נתוני 6 חודשים אחרונים</item>
+        <item>חישוב חכם</item>
+    </string-array>
+    <string-array name="first_day_of_week_array">
+        <item>ראשון</item>
+        <item>שני</item>
+        <item>שבת</item>
+    </string-array>
+    <string-array name="local_restore_ways">
+        <item>שחזור אוטומטי</item>
+        <item>שחזור ידני</item>
+    </string-array>
+    <string-array name="questions">
+        <item>נא לבחור שאלת אבטחה</item>
+        <item>מספר הטלפון הראשון שלך?</item>
+        <item>הצבע האהוב עלייך?</item>
+        <item>שם הבוס שלך?</item>
+        <item>הגדר שאלה משלי</item>
+    </string-array>
+</resources>

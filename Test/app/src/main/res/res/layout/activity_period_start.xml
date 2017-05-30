@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textColor="@color/materia_gary" android:id="@id/period_start_tip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="24.0dip" android:text="@string/period_start_date" />
+    <LinearLayout android:orientation="vertical" android:id="@id/tip_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="32.0dip" android:layout_marginRight="16.0dip" android:layout_below="@id/period_start_tip">
+        <TextView android:textSize="20.0sp" android:textColor="@color/theme_color" android:gravity="center_horizontal" android:id="@id/start_date" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/theme_color" android:gravity="center_horizontal" android:id="@id/start_date_tip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" />
+    </LinearLayout>
+    <net.simonvt.numberpicker.NumberPicker android:id="@id/date_pick" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="64.0dip" android:layout_below="@id/tip_layout" android:layout_centerInParent="true" />
+</RelativeLayout>

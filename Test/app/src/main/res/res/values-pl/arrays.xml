@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cycle_dialog_values">
+        <item>Dane ost. miesiąca</item>
+        <item>Dane z ost. 3 miesięcy</item>
+        <item>Dane z ost. 6 miesięcy</item>
+        <item>Inteligentne obliczanie</item>
+    </string-array>
+    <string-array name="first_day_of_week_array">
+        <item>Niedziela</item>
+        <item>Poniedziałek</item>
+        <item>Sobota</item>
+    </string-array>
+    <string-array name="local_restore_ways">
+        <item>Automatyczne przywracanie</item>
+        <item>Przywracanie ręczne</item>
+    </string-array>
+    <string-array name="questions">
+        <item>Wybierz pytanie zabezpieczające</item>
+        <item>Twój główny numer telefonu?</item>
+        <item>Twój ulubiony kolor?</item>
+        <item>Imię szefa?</item>
+        <item>Ustalę własne pytanie</item>
+    </string-array>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cycle_dialog_values">
+        <item>Data 1 bulan terakhir</item>
+        <item>Data 3 bulan terakhir</item>
+        <item>Data 6 bulan terakhir</item>
+        <item>Penghitungan cepat</item>
+    </string-array>
+    <string-array name="first_day_of_week_array">
+        <item>Minggu</item>
+        <item>Senin</item>
+        <item>Sabtu</item>
+    </string-array>
+    <string-array name="local_restore_ways">
+        <item>Auto Restore</item>
+        <item>pengguna Restore</item>
+    </string-array>
+    <string-array name="questions">
+        <item>Pilih pertanyaan rahasia Anda</item>
+        <item>Anda pertama Telpon?</item>
+        <item>Warna kesukaan kamu?</item>
+        <item>Nama bos kamu?</item>
+        <item>Buat pertanyaan sendiri</item>
+    </string-array>
+</resources>

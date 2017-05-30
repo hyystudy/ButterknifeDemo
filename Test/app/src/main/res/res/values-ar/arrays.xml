@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cycle_dialog_values">
+        <item>اخر بيانات شهر واحد</item>
+        <item>اخر بيانات الثلاث اشهر</item>
+        <item>اخر بيانات الستة اشهر</item>
+        <item>حساب ذكي</item>
+    </string-array>
+    <string-array name="first_day_of_week_array">
+        <item>الأحد</item>
+        <item>يوم الاثنين</item>
+        <item>السبت</item>
+    </string-array>
+    <string-array name="local_restore_ways">
+        <item>السيارات استعادة</item>
+        <item>دليل استعادة</item>
+    </string-array>
+    <string-array name="questions">
+        <item>اختر سؤالك الامني</item>
+        <item>رقم الهاتف الخاص بك اولا؟</item>
+        <item>لون مفضلتك؟</item>
+        <item>اسم رئيسك؟</item>
+        <item>تعين سؤالك</item>
+    </string-array>
+</resources>

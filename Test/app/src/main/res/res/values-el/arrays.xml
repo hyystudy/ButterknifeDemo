@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cycle_dialog_values">
+        <item>Τελευταίου 1 μήνα</item>
+        <item>Τελευταίων 2 μηνών</item>
+        <item>Τελευταίων 2 μηνών</item>
+        <item>Έξυπνος υπολογισμός</item>
+    </string-array>
+    <string-array name="first_day_of_week_array">
+        <item>Κυριακή</item>
+        <item>Δευτέρα</item>
+        <item>Σάββατο</item>
+    </string-array>
+    <string-array name="local_restore_ways">
+        <item>Αυτόματη Επαναφορά</item>
+        <item>Χειροκίνητη Επαναφορά</item>
+    </string-array>
+    <string-array name="questions">
+        <item>Επιλογή Ερώτησης Ασφαλείας</item>
+        <item>πρώτο αριθμό τηλέφωνο</item>
+        <item>Το αγαπημένο σας χρώμα</item>
+        <item>Το όνομα του αφεντικού σας</item>
+        <item>Ορισμός δικής μου ερώτησης</item>
+    </string-array>
+</resources>

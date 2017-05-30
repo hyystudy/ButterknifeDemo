@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cycle_dialog_values">
+        <item>Du dernier mois</item>
+        <item>Des 3 derniers mois</item>
+        <item>Des 6 derniers mois</item>
+        <item>Calcul intelligent</item>
+    </string-array>
+    <string-array name="first_day_of_week_array">
+        <item>Dimanche</item>
+        <item>Lundi</item>
+        <item>Samedi</item>
+    </string-array>
+    <string-array name="local_restore_ways">
+        <item>Restauration auto</item>
+        <item>Restauration manuelle</item>
+    </string-array>
+    <string-array name="questions">
+        <item>Choisissez votre question de sécurité</item>
+        <item>Votre premier numéro de téléphone ?</item>
+        <item>Votre couleur préférée ?</item>
+        <item>Le nom de votre patron ?</item>
+        <item>Créer ma propre question</item>
+    </string-array>
+</resources>

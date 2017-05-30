@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cycle_dialog_values">
+        <item>Дані за ост. місяць</item>
+        <item>Дані за ост.і 3 міс.</item>
+        <item>Дані за ост. 6 міс.</item>
+        <item>Розумний підрахунок</item>
+    </string-array>
+    <string-array name="first_day_of_week_array">
+        <item>Неділя</item>
+        <item>Понеділок</item>
+        <item>Субота</item>
+    </string-array>
+    <string-array name="local_restore_ways">
+        <item>Авто відновл.</item>
+        <item>Ручне відновл.</item>
+    </string-array>
+    <string-array name="questions">
+        <item>Виберіть запитання безпеки</item>
+        <item>Номер Вашого телефону?</item>
+        <item>Ваш улюблений колір?</item>
+        <item>"Ім'я Вашого начальника?"</item>
+        <item>Устан. своє запитання</item>
+    </string-array>
+</resources>

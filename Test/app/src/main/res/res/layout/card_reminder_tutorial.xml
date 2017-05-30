@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/red_round_rectangle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="10.0dip">
+        <ImageView android:id="@id/icon_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_reminder_tutorial" android:minWidth="72.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/btn_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_close" android:minWidth="72.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="vertical" android:id="@id/tip_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_toLeftOf="@id/btn_close" android:layout_toRightOf="@id/icon_tip">
+            <TextView android:textSize="18.0sp" android:textColor="@color/white" android:id="@id/reminder_off_tip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/reminder_off_1" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/white" android:id="@id/tip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/enable_reminder_video_tip" />
+            <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/btn_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="16.0dip" android:text="@string/tutorial_video" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

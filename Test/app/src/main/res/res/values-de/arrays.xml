@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cycle_dialog_values">
+        <item>Daten vom letzten 1 Monat</item>
+        <item>Daten von letzten 3 Monaten</item>
+        <item>Daten von letzten 6 Monaten</item>
+        <item>Smart-Rechner</item>
+    </string-array>
+    <string-array name="first_day_of_week_array">
+        <item>Sonntag</item>
+        <item>Montag</item>
+        <item>Samstag</item>
+    </string-array>
+    <string-array name="local_restore_ways">
+        <item>Auto wiederherstellen</item>
+        <item>manuelle Wiederherstellung</item>
+    </string-array>
+    <string-array name="questions">
+        <item>Wählen Sie Ihre Sicherheitsfrage</item>
+        <item>Ihre erste Telefonnummer?</item>
+        <item>Ihre Lieblingsfarbe?</item>
+        <item>Name Ihres Chefs?</item>
+        <item>meine eigene Frage einstellen</item>
+    </string-array>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="@color/md_text_gray" android:id="@id/tip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="24.0dip" android:text="@string/enable_reminder_video_tip" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/btn_layout" android:background="#12fc6173" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="#ffd50000" android:layout_gravity="center" android:id="@id/btn_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tutorial_video" android:drawableLeft="@drawable/icon_youtobe" android:drawablePadding="24.0dip" />
+    </LinearLayout>
+</LinearLayout>

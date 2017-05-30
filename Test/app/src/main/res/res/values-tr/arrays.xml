@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cycle_dialog_values">
+        <item>Geçen 1 Aylık Veri</item>
+        <item>Geçmiş 3 Aylık Veri</item>
+        <item>Son 6 Aylık Veri</item>
+        <item>Akıllı hesap</item>
+    </string-array>
+    <string-array name="first_day_of_week_array">
+        <item>Pazar</item>
+        <item>Pazartesi</item>
+        <item>Cumartesi</item>
+    </string-array>
+    <string-array name="local_restore_ways">
+        <item>Otomatik Geri Yükleme</item>
+        <item>manuel yükleme</item>
+    </string-array>
+    <string-array name="questions">
+        <item>Güvenlik sorunuzu seçin</item>
+        <item>İlk telefon numaranız?</item>
+        <item>En sevdiğiniz renk?</item>
+        <item>Patronuzun adı?</item>
+        <item>Sorumu ayarla</item>
+    </string-array>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fffafafa" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/ad_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="40.0">
+            <TextView android:textSize="24.0sp" android:textColor="@color/pin_color_red" android:gravity="center" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/restr_pin_enter_pin" android:layout_weight="2.0" />
+            <LinearLayout android:gravity="top" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.2">
+                <LinearLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="2.8" />
+                <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageView android:id="@id/pin_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pin_round" android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageView android:id="@id/pin_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pin_round" android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageView android:id="@id/pin_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pin_round" android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageView android:id="@id/pin_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pin_round" android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+                <LinearLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="2.8" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:background="@drawable/icon_pin_devide" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="60.0">
+            <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.2" />
+            <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="34.0sp" android:textColor="@color/pin_color_red" android:gravity="center" android:id="@id/num_1" android:background="@drawable/bg_materia" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="1" android:layout_weight="1.0" />
+                <TextView android:textSize="34.0sp" android:textColor="@color/pin_color_red" android:gravity="center" android:id="@id/num_2" android:background="@drawable/bg_materia" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="2" android:layout_weight="1.0" />
+                <TextView android:textSize="34.0sp" android:textColor="@color/pin_color_red" android:gravity="center" android:id="@id/num_3" android:background="@drawable/bg_materia" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="3" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="34.0sp" android:textColor="@color/pin_color_red" android:gravity="center" android:id="@id/num_4" android:background="@drawable/bg_materia" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="4" android:layout_weight="1.0" />
+                <TextView android:textSize="34.0sp" android:textColor="@color/pin_color_red" android:gravity="center" android:id="@id/num_5" android:background="@drawable/bg_materia" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="5" android:layout_weight="1.0" />
+                <TextView android:textSize="34.0sp" android:textColor="@color/pin_color_red" android:gravity="center" android:id="@id/num_6" android:background="@drawable/bg_materia" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="6" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="34.0sp" android:textColor="@color/pin_color_red" android:gravity="center" android:id="@id/num_7" android:background="@drawable/bg_materia" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="7" android:layout_weight="1.0" />
+                <TextView android:textSize="34.0sp" android:textColor="@color/pin_color_red" android:gravity="center" android:id="@id/num_8" android:background="@drawable/bg_materia" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="8" android:layout_weight="1.0" />
+                <TextView android:textSize="34.0sp" android:textColor="@color/pin_color_red" android:gravity="center" android:id="@id/num_9" android:background="@drawable/bg_materia" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="9" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="16.0sp" android:textColor="@color/pin_color_red" android:ellipsize="end" android:gravity="center" android:id="@id/num_cancle" android:background="@drawable/bg_materia" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/cancel" android:singleLine="true" android:layout_weight="1.0" />
+                <TextView android:textSize="34.0sp" android:textColor="@color/pin_color_red" android:gravity="center" android:id="@id/num_0" android:background="@drawable/bg_materia" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="0" android:layout_weight="1.0" />
+                <ImageView android:id="@id/num_del" android:background="@drawable/bg_materia" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/pin_delete" android:scaleType="center" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.4" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

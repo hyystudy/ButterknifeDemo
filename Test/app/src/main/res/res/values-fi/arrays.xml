@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cycle_dialog_values">
+        <item>Edellisen 1 kuukauden tiedot</item>
+        <item>Edellisen 3 kuukauden tiedot</item>
+        <item>Edellisen 6 kuukauden tiedot</item>
+        <item>Älykäs laskenta</item>
+    </string-array>
+    <string-array name="first_day_of_week_array">
+        <item>Sunnuntai</item>
+        <item>Maanantai</item>
+        <item>Lauantai</item>
+    </string-array>
+    <string-array name="local_restore_ways">
+        <item>Automaattinen palautus</item>
+        <item>Manuaalinen palautus</item>
+    </string-array>
+    <string-array name="questions">
+        <item>Valitse turvakysymykseesi</item>
+        <item>Ensimmäinen puhelinnumerosi?</item>
+        <item>Lempivärisi?</item>
+        <item>Pomosi nimi?</item>
+        <item>Aseta oma kysymys</item>
+    </string-array>
+</resources>

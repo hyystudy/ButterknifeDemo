@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/light_gray" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/title_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:minHeight="33.0dip">
+        <TextView android:textSize="18.0sp" android:textColor="#ff353535" android:id="@id/show_hide" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/show_hide" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="18.0sp" android:textColor="#ff353535" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="@string/press_to_rename" android:layout_toLeftOf="@id/show_hide" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <ImageView android:id="@id/top_devider" android:layout_below="@id/title_layout" style="@style/setting_devider_bold" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/ad_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <ListView android:id="@id/symp_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/ad_layout" android:layout_below="@id/top_devider" style="@style/setting_list" />
+</RelativeLayout>

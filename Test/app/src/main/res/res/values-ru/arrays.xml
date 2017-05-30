@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cycle_dialog_values">
+        <item>за последний 1 мес.</item>
+        <item>за последние 3 мес.</item>
+        <item>за последние 6 мес.</item>
+        <item>Умное вычисление</item>
+    </string-array>
+    <string-array name="first_day_of_week_array">
+        <item>воскресенье</item>
+        <item>понедельник</item>
+        <item>суббота</item>
+    </string-array>
+    <string-array name="local_restore_ways">
+        <item>Автомат. восстановление</item>
+        <item>Восстановление вручную</item>
+    </string-array>
+    <string-array name="questions">
+        <item>Выберите секретный вопрос</item>
+        <item>Номер вашего телефона?</item>
+        <item>Ваш любимый цвет?</item>
+        <item>Имя вашего начальника?</item>
+        <item>Написать свой вопрос</item>
+    </string-array>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cycle_dialog_values">
+        <item>Data for siste 1 måned</item>
+        <item>Data for siste 3 måneder</item>
+        <item>Data for siste 6 måneder</item>
+        <item>Smart kalkulering</item>
+    </string-array>
+    <string-array name="first_day_of_week_array">
+        <item>Søndag</item>
+        <item>Mandag</item>
+        <item>Lørdag</item>
+    </string-array>
+    <string-array name="local_restore_ways">
+        <item>Automatisk gjenoppretting</item>
+        <item>Manuell gjenoppretting</item>
+    </string-array>
+    <string-array name="questions">
+        <item>Velg sikkerhetsspørsmål</item>
+        <item>Ditt første telefonnummeret?</item>
+        <item>Din favorittfarge?</item>
+        <item>Navnet på sjefen din</item>
+        <item>Angi eget spørsmål</item>
+    </string-array>
+</resources>

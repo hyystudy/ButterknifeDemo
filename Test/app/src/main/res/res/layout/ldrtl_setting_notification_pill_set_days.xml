@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/no_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@color/light_gray" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:id="@id/ad_layout" android:layout_width="wrap_content" android:layout_height="50.0dip" android:layout_centerHorizontal="true" />
+        <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/ad_layout">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:id="@id/notification_state_layout" style="@style/data_checkbox_layout">
+                    <CheckBox android:id="@id/close" style="@style/ldrtl_data_checkbox_layout_checkbox" />
+                    <TextView android:text="@string/notification" android:layout_toLeftOf="@id/close" style="@style/ldrtl_data_checkbox_layout_text" />
+                    <ImageView android:layout_alignParentBottom="true" style="@style/data_devider" />
+                </RelativeLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/tip_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:text="@string/advanced_setting_tip" style="@style/ldrtl_data_tip_text" />
+                    <ImageView style="@style/data_devider" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:text="@string/please_input_pill_name" style="@style/ldrtl_data_title_text" />
+                    <TextView android:text="@string/tap_to_edit" style="@style/ldrtl_data_tap_to_edit" />
+                    <EditText android:id="@id/pill_name" android:singleLine="true" android:textCursorDrawable="@null" style="@style/data_input_text" />
+                </LinearLayout>
+                <ImageView style="@style/data_devider" />
+                <LinearLayout android:orientation="vertical" android:id="@id/days_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:text="@string/comsume_pill_days_tip" style="@style/ldrtl_data_title_text" />
+                    <RelativeLayout style="@style/data_input_layout">
+                        <TextView android:id="@id/consume_pill_days" style="@style/ldrtl_notifation_data_value" />
+                        <TextView android:id="@id/consume_pill_unit" android:layout_toLeftOf="@id/consume_pill_days" style="@style/ldrtl_data_unit" />
+                        <LinearLayout style="@style/ldrtl_button_plus_minus_layout">
+                            <Button android:id="@id/consume_pill_days_down" style="@style/ldrtl_button_minus" />
+                            <Button android:id="@id/consume_pill_days_up" style="@style/ldrtl_button_plus" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                    <ImageView style="@style/data_devider" />
+                    <TextView android:text="@string/no_pill_days_tip" style="@style/ldrtl_data_title_text" />
+                    <RelativeLayout style="@style/data_input_layout">
+                        <TextView android:id="@id/no_pill_days" style="@style/ldrtl_notifation_data_value" />
+                        <TextView android:id="@id/no_pill_unit" android:layout_toLeftOf="@id/no_pill_days" style="@style/ldrtl_data_unit" />
+                        <LinearLayout style="@style/ldrtl_button_plus_minus_layout">
+                            <Button android:id="@id/no_pill_days_up" style="@style/ldrtl_button_plus" />
+                            <Button android:id="@id/no_pill_days_down" style="@style/ldrtl_button_minus" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                    <ImageView android:background="@color/setting_devider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="10.0dip" />
+                </LinearLayout>
+                <RelativeLayout android:id="@id/notification_state_layout1" style="@style/data_checkbox_layout">
+                    <CheckBox android:id="@id/bt_switch" style="@style/ldrtl_data_checkbox_layout_checkbox" />
+                    <TextView android:text="@string/everyday_pill_tip" android:layout_toLeftOf="@id/bt_switch" style="@style/ldrtl_data_checkbox_layout_text" />
+                    <ImageView android:layout_alignParentBottom="true" style="@style/data_devider" />
+                </RelativeLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/date_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:text="@string/first_pill_for_this_cycle_tip" style="@style/ldrtl_data_title_text" />
+                    <TextView android:text="@string/tap_to_edit" style="@style/ldrtl_data_tap_to_edit" />
+                    <TextView android:id="@id/start_date" style="@style/data_input_text" />
+                    <ImageView style="@style/data_devider" />
+                </LinearLayout>
+                <TextView android:id="@id/wiki" android:layout_marginBottom="20.0dip" android:text="@string/pill_wiki" style="@style/ldrtl_data_tip_text" />
+                <Button android:textSize="@dimen/setting_title_size" android:textColor="@color/title_text" android:id="@id/next" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:text="@string/next" />
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+</RelativeLayout>

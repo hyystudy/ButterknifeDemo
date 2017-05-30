@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dialog_text_btn_size">20.0sp</dimen>
+    <dimen name="dialog_text_tip_normal">44.0sp</dimen>
+    <dimen name="dialog_text_tip_small">18.0sp</dimen>
+    <dimen name="entry_item_height">50.0dip</dimen>
+    <dimen name="v7_dialog_button_text_size">17.0sp</dimen>
+    <dimen name="calendar_note_text">14.0sp</dimen>
+    <dimen name="calendar_note_title_text">18.0sp</dimen>
+    <dimen name="calendar_week_text">14.0sp</dimen>
+    <dimen name="log_avg_text_size">20.0sp</dimen>
+    <dimen name="log_height_1">40.0dip</dimen>
+    <dimen name="log_list_title_text">14.0sp</dimen>
+    <dimen name="log_list_title_text_new">12.0sp</dimen>
+    <dimen name="new_user_text_2">12.0sp</dimen>
+    <dimen name="new_user_text_3">14.0sp</dimen>
+    <dimen name="timeline_day">34.0sp</dimen>
+    <dimen name="timeline_key">18.0sp</dimen>
+    <dimen name="timeline_value">14.0sp</dimen>
+</resources>

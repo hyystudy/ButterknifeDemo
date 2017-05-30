@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cycle_dialog_values">
+        <item>Sidste 1 måneds data</item>
+        <item>Sidste 3 måneders data</item>
+        <item>Sidste 6 måneders data</item>
+        <item>Intelligent udregning</item>
+    </string-array>
+    <string-array name="first_day_of_week_array">
+        <item>Søndag</item>
+        <item>Mandag</item>
+        <item>Lørdag</item>
+    </string-array>
+    <string-array name="local_restore_ways">
+        <item>Auto gendan</item>
+        <item>Manuel gendan</item>
+    </string-array>
+    <string-array name="questions">
+        <item>Vælg dit sikkerhedsspørgsmål</item>
+        <item>Dit første tlf. nummer?</item>
+        <item>Din yndlingsfarve?</item>
+        <item>Din chefs navn?</item>
+        <item>Skriv mit eget spørgsmål</item>
+    </string-array>
+</resources>

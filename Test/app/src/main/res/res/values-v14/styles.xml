@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="PCTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textColorSecondary">@color/material_deep_teal_500</item>
+        <item name="android:buttonStyle">@android:style/Widget.Button</item>
+        <item name="android:buttonStyleSmall">@android:style/Widget.Button.Small</item>
+        <item name="android:buttonStyleInset">@android:style/Widget.Button.Inset</item>
+        <item name="android:buttonStyleToggle">@android:style/Widget.Button.Toggle</item>
+        <item name="android:editTextStyle">@android:style/Widget.EditText</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="numberPickerStyle">@style/NPWidget.Holo.Light.NumberPicker</item>
+        <item name="textAllCaps">false</item>
+        <item name="actionBarStyle">@style/MyActionBar</item>
+        <item name="colorAccent">@color/material_deep_teal_500</item>
+    </style>
+    <style name="PCTheme.NoActionBar" parent="@style/PCTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="PCTheme.Transparent" parent="@style/PCTheme">
+        <item name="android:windowBackground">@color/transparent_background</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="PCTheme.Transparent.NoActionBar" parent="@style/PCTheme.Transparent">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="PCTheme.actionTab" parent="@style/PCTheme">
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="Platform.AppCompat" parent="@style/Platform.V14.AppCompat" />
+    <style name="Platform.AppCompat.Light" parent="@style/Platform.V14.AppCompat.Light" />
+    <style name="dialog" parent="@style/PCTheme">
+        <item name="android:windowBackground">@color/no_color</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="dialog_bottom">
+        <item name="android:minHeight">8.0dip</item>
+    </style>
+    <style name="holo_dialog_devide_line">
+        <item name="android:visibility">visible</item>
+    </style>
+    <style name="holo_dialog_text">
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Button" parent="@style/Base.TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/abc_text_size_button_material</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent" parent="@android:style/TextAppearance.StatusBar.EventContent" />
+    <style name="TextAppearance.StatusBar.EventContent.Info" parent="@style/TextAppearance.StatusBar.EventContent" />
+    <style name="TextAppearance.StatusBar.EventContent.Line2" parent="@style/TextAppearance.StatusBar.EventContent">
+        <item name="android:textSize">@dimen/notification_subtext_size</item>
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent.Time" parent="@style/TextAppearance.StatusBar.EventContent" />
+    <style name="TextAppearance.StatusBar.EventContent.Title" parent="@android:style/TextAppearance.StatusBar.EventContent.Title" />
+    <style name="Platform.V14.AppCompat" parent="@style/Platform.V11.AppCompat">
+        <item name="android:actionModeSelectAllDrawable">?actionModeSelectAllDrawable</item>
+        <item name="android:listPreferredItemPaddingLeft">@dimen/abc_list_item_padding_horizontal_material</item>
+        <item name="android:listPreferredItemPaddingRight">@dimen/abc_list_item_padding_horizontal_material</item>
+    </style>
+    <style name="Platform.V14.AppCompat.Light" parent="@style/Platform.V11.AppCompat.Light">
+        <item name="android:actionModeSelectAllDrawable">?actionModeSelectAllDrawable</item>
+        <item name="android:listPreferredItemPaddingLeft">@dimen/abc_list_item_padding_horizontal_material</item>
+        <item name="android:listPreferredItemPaddingRight">@dimen/abc_list_item_padding_horizontal_material</item>
+    </style>
+</resources>

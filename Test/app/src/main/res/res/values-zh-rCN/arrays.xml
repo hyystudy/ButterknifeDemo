@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cycle_dialog_values">
+        <item>最近1个月</item>
+        <item>最近3个月</item>
+        <item>最近6个月</item>
+        <item>智能计算</item>
+    </string-array>
+    <string-array name="first_day_of_week_array">
+        <item>星期日</item>
+        <item>星期一</item>
+        <item>星期六</item>
+    </string-array>
+    <string-array name="local_restore_ways">
+        <item>自动恢复</item>
+        <item>手动恢复</item>
+    </string-array>
+    <string-array name="questions">
+        <item>请选择您的安全问题</item>
+        <item>您的第一个电话号码是？</item>
+        <item>您最喜欢的颜色是？</item>
+        <item>您的老板是？</item>
+        <item>自己设置安全问题</item>
+    </string-array>
+</resources>

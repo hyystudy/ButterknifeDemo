@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip">
+        <TextView android:textSize="@dimen/log_list_title_text_new" android:textStyle="bold" android:textColor="#ff666666" android:gravity="center" android:id="@id/menses_start" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="4.0" />
+        <TextView android:textSize="@dimen/log_list_title_text_new" android:textStyle="bold" android:textColor="#ff666666" android:gravity="center" android:id="@id/length" android:visibility="gone" android:clickable="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="8.0" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/item_period_view" android:visibility="gone" android:clickable="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="12.0" />
+        <ImageView android:id="@id/arrow" android:clickable="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/log_btn_next" android:layout_weight="1.0" />
+    </LinearLayout>
+    <ImageView android:layout_width="fill_parent" android:layout_height="1.0dip" android:src="#ffdddddd" />
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/head" />
+    <ImageView android:id="@id/top_devide_line" android:background="@drawable/img_devide_line" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/top_bar" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/ad_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:background="@drawable/classic_entry_bg_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:layout_above="@id/ad_layout" android:layout_below="@id/top_devide_line">
+        <RelativeLayout android:id="@id/date_layout" android:background="@drawable/bg_entry_list" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="18.0sp" android:textColor="@color/text_color" android:id="@id/date_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+            <LinearLayout android:id="@id/date_pre_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/date_text" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+                <ImageButton android:layout_gravity="left" android:background="@drawable/button_pre_arrow" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:id="@id/date_next_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/date_text" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                <ImageButton android:layout_gravity="right" android:background="@drawable/button_next_arrow" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" />
+            </LinearLayout>
+        </RelativeLayout>
+        <ScrollView android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/date_layout">
+            <LinearLayout android:orientation="vertical" android:id="@id/list_layout" android:background="@drawable/bg_entry_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </ScrollView>
+    </RelativeLayout>
+</RelativeLayout>

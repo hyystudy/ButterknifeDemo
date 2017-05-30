@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/recent_layout" android:background="@drawable/reminder_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="@color/theme_color" android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="20.0dip" android:text="@string/recent" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/recent_position" android:visibility="invisible" layout="@layout/note_mood_recent_item" />
+            <android.support.v7.widget.RecyclerView android:id="@id/recent_list_layout" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignTop="@id/recent_position" android:layout_alignBottom="@id/recent_position" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
