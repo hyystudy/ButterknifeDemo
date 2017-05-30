@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:background="@drawable/bg_note_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/entry_item_height">
-        <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="@drawable/icon_ovulation_test" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
-        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/notelist_ovulation_test" android:layout_toRightOf="@id/icon" android:layout_centerVertical="true" />
-        <TextView android:textSize="28.0sp" android:textStyle="bold" android:textColor="@color/text_color_red" android:gravity="center" android:id="@id/test_result" android:layout_width="33.0dip" android:layout_height="33.0dip" android:layout_marginRight="5.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
-    </RelativeLayout>
-</RelativeLayout>

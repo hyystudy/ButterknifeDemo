@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="horizontal" android:id="@id/ad_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
-    <ListView android:id="@id/file_list" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@color/no_color" android:drawSelectorOnTop="true" android:divider="#ff555353" android:dividerHeight="1.0dip" android:layout_below="@id/ad_layout" />
-</RelativeLayout>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.popularapp.periodcalendar.ads.effects.AnimatorView android:id="@id/effects_view" android:background="#d8ffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <RelativeLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:id="@id/funny_ad_title" android:background="@drawable/funny_ad_bg" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:paddingBottom="8.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginBottom="8.0dip" android:text="@string/recommended_for_you" android:fontFamily="sans-serif" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" android:layout_marginStart="8.0dip" />
-        <android.support.v7.widget.CardView android:id="@id/native_ad_layout" android:focusableInTouchMode="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="8.0dip" android:maxHeight="320.0dip" android:minHeight="250.0dip" android:layout_below="@id/funny_ad_title" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" app:cardBackgroundColor="@android:color/white" app:cardCornerRadius="2.0dip" app:cardElevation="4.0dip" />
-    </RelativeLayout>
-</FrameLayout>

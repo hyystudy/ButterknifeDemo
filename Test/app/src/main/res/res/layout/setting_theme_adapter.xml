@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:id="@id/layout" android:background="@color/white" android:layout_width="105.0dip" android:layout_height="175.0dip" android:layout_centerHorizontal="true">
-        <ImageView android:id="@id/skin_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="3.0dip" android:scaleType="fitXY" android:layout_centerInParent="true" />
-        <ImageView android:id="@id/in_use" android:background="@drawable/in_use" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
-    </RelativeLayout>
-    <TextView android:textSize="14.0sp" android:textColor="@color/title_text" android:gravity="center" android:id="@id/price" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/layout" />
-</RelativeLayout>

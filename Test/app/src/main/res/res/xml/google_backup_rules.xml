@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<full-backup-content>
-    <include domain="sharedpref" path="Global.xml" />
-    <include domain="sharedpref" path="PC.xml" />
-    <include domain="sharedpref" path="ServerConfig.xml" />
-    <include domain="database" path="PC.db" />
-    <include domain="database" path="PC_PILL.db" />
-</full-backup-content>

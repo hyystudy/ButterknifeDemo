@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:orientation="vertical" android:background="#ff4a90e2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
-        <TextView android:textSize="20.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/reminder_off_1" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:fontFamily="@string/roboto_medium" />
-        <TextView android:textSize="20.0sp" android:textColor="#ff55f2f1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:text="@string/enable" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:fontFamily="@string/roboto_medium" />
-    </RelativeLayout>
-</RelativeLayout>
