@@ -34,7 +34,7 @@ public abstract class AbstractBaseActivity<P extends BasePresenter> extends AppC
 
         if (getPresenterClass() != null) {
             try {
-                //使用newInstance()来生成实例
+                //使用newInstance()来生成实例(反射)
                 mPresenter = getPresenterClass().newInstance();
                 mPresenter.attach(this);
             } catch (InstantiationException e) {
