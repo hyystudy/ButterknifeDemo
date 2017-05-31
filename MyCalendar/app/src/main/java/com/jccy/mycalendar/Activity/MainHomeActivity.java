@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.text.TextUtils;
 
+import com.jccy.mycalendar.Presenter.AppPresenter;
 import com.jccy.mycalendar.Presenter.MainActivityPresenter;
 import com.jccy.mycalendar.Presenter.MainHomePresenter;
 import com.jccy.mycalendar.R;
@@ -31,6 +32,7 @@ public class MainHomeActivity extends AbstractBaseActivity<MainHomePresenter> {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+        System.out.println("数据库是否为空："+ AppPresenter.getInstance().getDaoSession());
     }
 
     @Override
