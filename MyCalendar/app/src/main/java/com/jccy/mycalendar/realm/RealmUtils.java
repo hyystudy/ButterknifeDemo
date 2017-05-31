@@ -8,17 +8,50 @@ import java.io.File;
 
 import io.realm.Realm;
 import io.realm.RealmConfiguration;
+import io.realm.RealmObject;
+import io.realm.RealmQuery;
+import io.realm.RealmResults;
 import io.realm.exceptions.RealmMigrationNeededException;
 
-public class RealmUtils {
+public class RealmUtils<T extends RealmObject> {
 
+    public static Realm realm;
+    //有可能造成内存泄漏，但是此处务必传applicationContext
     public static void getRealmInstance(Context context) {
         Realm.init(context);
-        Realm realm = Realm.getDefaultInstance();
-//        Realm.setDefaultConfiguration(new RealmConfiguration.Builder(context)
-//                .migration(new Migration())
-//                .schemaVersion(Migration.VERSION)
-//                .build());
+        RealmConfiguration realmConfiguration=new RealmConfiguration.Builder()
+                .migration(new Migration())
+                .schemaVersion(Migration.VERSION)
+                .build();
+        realm=Realm.getInstance(realmConfiguration);
+    }
+    /**
+     * 插入数据
+     * */
+    public void insetData(final T data){
+        realm.executeTransaction(new Realm.Transaction() {
+            @Override
+            public void execute(Realm realm) {
+                realm.copyToRealmOrUpdate(data);
+            }
+        });
+
+    }
+    //不能使用
+    // TODO: 2017/5/31  
+    public void queryData( RealmObject  data){
+        RealmQuery query = realm.where(RealmObject.class);
+
+        query.equalTo("name", "John");
+        query.or().equalTo("name", "Peter");
+
+        RealmResults result1 = query.findAll();
+
+        RealmResults result2 = realm.where(RealmObject.class)
+                .equalTo("name", "John")
+                .or()
+                .equalTo("name", "Peter")
+                .findAll();
     }
 
     /**
