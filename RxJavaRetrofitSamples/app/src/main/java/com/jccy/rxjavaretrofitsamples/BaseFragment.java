@@ -17,7 +17,7 @@ import io.reactivex.disposables.Disposable;
 
 public abstract class BaseFragment extends Fragment {
 
-    private Unbinder unbinder;
+    protected Unbinder unbinder;
     protected Disposable disposable;
 
     @Nullable

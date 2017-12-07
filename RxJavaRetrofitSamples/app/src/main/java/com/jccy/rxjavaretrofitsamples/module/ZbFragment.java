@@ -1,15 +1,8 @@
 package com.jccy.rxjavaretrofitsamples.module;
 
-import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
 import android.widget.Toast;
 
 import com.jccy.rxjavaretrofitsamples.BaseFragment;
@@ -21,11 +14,9 @@ import com.jccy.rxjavaretrofitsamples.network.NetWork;
 import java.util.List;
 
 import butterknife.BindView;
-import butterknife.ButterKnife;
 import butterknife.OnClick;
 import butterknife.Unbinder;
 import io.reactivex.android.schedulers.AndroidSchedulers;
-import io.reactivex.functions.Action;
 import io.reactivex.functions.Consumer;
 import io.reactivex.schedulers.Schedulers;
 
@@ -36,7 +27,6 @@ import io.reactivex.schedulers.Schedulers;
 public class ZbFragment extends BaseFragment {
 
     private static final String TAG = "ZbFragment";
-    private Unbinder unbinder;
     @BindView(R.id.recycler_view) RecyclerView recyclerView;
     @BindView(R.id.swipe_refresh_layout)
     SwipeRefreshLayout swipeRefreshLayout;
