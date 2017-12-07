@@ -3,6 +3,7 @@ package com.jccy.rxjavaretrofitsamples.module;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.widget.Toast;
 
 import com.jccy.rxjavaretrofitsamples.BaseFragment;
@@ -54,6 +55,7 @@ public class ZbFragment extends BaseFragment {
                     @Override
                     public void accept(Throwable throwable) throws Exception {
                         swipeRefreshLayout.setRefreshing(false);
+                        Log.d(TAG, "load failed");
                         Toast.makeText(getContext(), "Load failed", Toast.LENGTH_SHORT).show();
                     }
                 });
