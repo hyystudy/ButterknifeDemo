@@ -1,9 +1,11 @@
 package com.jccy.rxjavaretrofitsamples.module;
 
 import android.support.v4.widget.SwipeRefreshLayout;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+import android.widget.RadioButton;
 import android.widget.Toast;
 
 import com.jccy.rxjavaretrofitsamples.BaseFragment;
@@ -15,6 +17,7 @@ import com.jccy.rxjavaretrofitsamples.network.NetWork;
 import java.util.List;
 
 import butterknife.BindView;
+import butterknife.OnCheckedChanged;
 import butterknife.OnClick;
 import butterknife.Unbinder;
 import io.reactivex.android.schedulers.AndroidSchedulers;
@@ -34,15 +37,27 @@ public class ZbFragment extends BaseFragment {
     private ZbListAdapter zbListAdapter;
 
 
-    @OnClick(R.id.load)
+    @OnClick(R.id.help)
     void onLoadClicked(){
-        swipeRefreshLayout.setRefreshing(true);
-        loadPictures();
+        new AlertDialog.Builder(getContext())
+                .setTitle(getDialogTitleId())
+                .setView(getDialogRes())
+                .show();
     }
 
-    private void loadPictures() {
+
+    @OnCheckedChanged({R.id.radio_one, R.id.radio_two, R.id.radio_three, R.id.radio_four})
+    void onCheckChanged(RadioButton radioButton, boolean checked){
+        if (checked){
+            unSubscribe();
+            swipeRefreshLayout.setRefreshing(true);
+            loadPictures(radioButton.getText().toString());
+        }
+    }
+
+    private void loadPictures(String key) {
         NetWork.getZhuangBiApi()
-                .search("110")
+                .search(key)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new Consumer<List<ZhuangBiImage>>() {
@@ -71,6 +86,16 @@ public class ZbFragment extends BaseFragment {
     @Override
     protected int getLayoutId() {
         return R.layout.zb_fragment_layout;
+    }
+
+    @Override
+    protected int getDialogTitleId() {
+        return R.string.base;
+    }
+
+    @Override
+    protected int getDialogRes() {
+        return R.layout.zb_dialog_layout;
     }
 
 }

@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.jccy.rxjavaretrofitsamples.R;
-import com.jccy.rxjavaretrofitsamples.model.ZhuangBiImage;
+import com.jccy.rxjavaretrofitsamples.model.Item;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,29 +22,26 @@ import butterknife.ButterKnife;
  * Created by heyangyang on 2017/12/6.
  */
 
-public class ZbListAdapter extends RecyclerView.Adapter<ZbListAdapter.ZbViewHolder> {
+public class ItemListAdapter extends RecyclerView.Adapter<ItemListAdapter.ZbViewHolder> {
 
     private Context mContext;
-    List<ZhuangBiImage> mData = new ArrayList<>();
+    List<Item> mData = new ArrayList<>();
 
-    public ZbListAdapter(Context context) {
+    public ItemListAdapter(Context context) {
         this.mContext = context;
     }
 
     @Override
     public ZbViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-//        这种创建View的方式不太好，在layout中设置的margin都不管用，因为它没有参照对象
-//        View inflate = View.inflate(mContext, R.layout.zb_list_item_layout, null);
-        //这种生成View的方式因为有parent做参照对象 布局会好看点
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.zb_list_item_layout, parent, false);
         return new ZbViewHolder(view);
     }
 
     @Override
     public void onBindViewHolder(ZbViewHolder holder, int position) {
-        ZhuangBiImage zhuangBiImage = mData.get(position);
-        holder.des.setText(zhuangBiImage.description);
-        Glide.with(mContext).load(zhuangBiImage.image_url).into(holder.image);
+        Item item = mData.get(position);
+        holder.des.setText(item.des);
+        Glide.with(mContext).load(item.image_url).into(holder.image);
     }
 
 
@@ -54,9 +51,9 @@ public class ZbListAdapter extends RecyclerView.Adapter<ZbListAdapter.ZbViewHold
         return mData.size();
     }
 
-    public void setImages(List<ZhuangBiImage> zhuangBiImages) {
+    public void setImages(List<Item> items) {
         mData.clear();
-        mData.addAll(zhuangBiImages);
+        mData.addAll(items);
         notifyDataSetChanged();
     }
 

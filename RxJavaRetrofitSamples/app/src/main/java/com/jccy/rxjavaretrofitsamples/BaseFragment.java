@@ -34,6 +34,10 @@ public abstract class BaseFragment extends Fragment {
 
     protected abstract int getLayoutId();
 
+    protected abstract int getDialogTitleId();
+
+    protected abstract int getDialogRes();
+
 
     @Override
     public void onDestroyView() {
