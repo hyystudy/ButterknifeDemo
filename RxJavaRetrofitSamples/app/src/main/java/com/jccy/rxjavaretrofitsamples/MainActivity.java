@@ -12,7 +12,9 @@ import android.view.MenuItem;
 import android.widget.TextView;
 
 import com.jccy.rxjavaretrofitsamples.module.MapFragment;
+import com.jccy.rxjavaretrofitsamples.module.TokenFragment;
 import com.jccy.rxjavaretrofitsamples.module.ZbFragment;
+import com.jccy.rxjavaretrofitsamples.module.ZipFragment;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -64,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
                     case 1:
                         return new MapFragment();
                     case 2:
-                        return new MapFragment();
+                        return new TokenFragment();
                 }
                 return null;
             }

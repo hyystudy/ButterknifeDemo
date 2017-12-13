@@ -81,6 +81,8 @@ public class ZbFragment extends BaseFragment {
         recyclerView.setLayoutManager(new GridLayoutManager(getContext(), 2));
         zbListAdapter = new ZbListAdapter(getContext());
         recyclerView.setAdapter(zbListAdapter);
+
+        swipeRefreshLayout.setEnabled(false);
     }
 
     @Override

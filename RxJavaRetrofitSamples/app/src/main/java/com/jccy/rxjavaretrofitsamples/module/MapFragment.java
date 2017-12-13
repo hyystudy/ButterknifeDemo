@@ -120,6 +120,7 @@ public class MapFragment extends BaseFragment {
         recyclerView.setAdapter(listAdapter);
 
         mLastBtn.setEnabled(mCurrentPage > 0);
+        swipeRefreshLayout.setEnabled(false);
     }
 
     @Override
